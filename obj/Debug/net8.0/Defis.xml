@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Defis</name>
+    </assembly>
+    <members>
+        <member name="M:Defis.Controllers.AuteurController.ListeAuteur">
+             <summary>
+            Liste des auteurs
+             </summary>
+             <remarks>
+             </remarks>   
+        </member>
+        <member name="M:Defis.Controllers.AuteurController.CreationAuteur(Defis.Dto.DtoAuteur)">
+            <summary>
+            Auteur -  Save Auteur
+            </summary>
+            <remarks>
+            Enregistrement Auteur 
+            </remarks>   
+        </member>
+    </members>
+</doc>

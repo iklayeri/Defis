@@ -1,0 +1,746 @@
+2024-02-09 14:23:19.3778|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-02-09 14:23:19.6595|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5045 
+2024-02-09 14:23:19.6694|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Defis 
+2024-02-09 14:23:19.6694|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-02-09 14:23:19.6703|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-02-09 14:23:19.6703|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/jean-louisklayeri/Documents/Defi/Defis 
+2024-02-09 14:23:19.6711|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-02-09 14:23:20.2542|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FAL7GU5P" accepted. 
+2024-02-09 14:23:20.2542|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FAL7GU5P" started. 
+2024-02-09 14:23:20.8264|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5045/swagger - - - 
+2024-02-09 14:23:20.8288|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-02-09 14:23:20.8288|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 14:23:20.9642|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FAL7GU5P" completed keep alive response. 
+2024-02-09 14:23:20.9739|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5045/swagger - 301 0 - 141.2397ms 
+2024-02-09 14:23:20.9847|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5045/swagger/index.html - - - 
+2024-02-09 14:23:20.9847|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 14:23:21.0432|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FAL7GU5P" completed keep alive response. 
+2024-02-09 14:23:21.0432|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5045/swagger/index.html - 200 - text/html;charset=utf-8 58.6895ms 
+2024-02-09 14:23:21.1413|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5045/swagger/swagger-ui.css - - - 
+2024-02-09 14:23:21.1413|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 14:23:21.1452|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-02-09 14:23:21.1467|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FAL7GU5Q" accepted. 
+2024-02-09 14:23:21.1467|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FAL7GU5Q" started. 
+2024-02-09 14:23:21.1471|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FAL7GU5R" accepted. 
+2024-02-09 14:23:21.1701|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FAL7GU5R" started. 
+2024-02-09 14:23:21.2204|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5045/swagger/swagger-ui-standalone-preset.js - - - 
+2024-02-09 14:23:21.2204|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5045/swagger/swagger-ui-bundle.js - - - 
+2024-02-09 14:23:21.2204|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 14:23:21.2204|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 14:23:21.2214|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-02-09 14:23:21.2214|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-02-09 14:23:21.3321|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2024-02-09 14:23:21.3321|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2024-02-09 14:23:21.3342|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2024-02-09 14:23:21.3342|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FAL7GU5Q" completed keep alive response. 
+2024-02-09 14:23:21.3342|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FAL7GU5R" completed keep alive response. 
+2024-02-09 14:23:21.3342|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FAL7GU5P" completed keep alive response. 
+2024-02-09 14:23:21.3351|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5045/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 114.6894ms 
+2024-02-09 14:23:21.3351|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5045/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 114.6449ms 
+2024-02-09 14:23:21.3351|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5045/swagger/swagger-ui.css - 200 143943 text/css 193.8978ms 
+2024-02-09 14:23:21.6676|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5045/swagger/v1/swagger.json - - - 
+2024-02-09 14:23:21.6676|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 14:23:21.7247|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5045/swagger/favicon-16x16.png - - - 
+2024-02-09 14:23:21.7247|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5045/swagger/favicon-32x32.png - - - 
+2024-02-09 14:23:21.7247|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 14:23:21.7247|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 14:23:21.7251|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-02-09 14:23:21.7251|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-02-09 14:23:21.7251|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2024-02-09 14:23:21.7251|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FAL7GU5Q" completed keep alive response. 
+2024-02-09 14:23:21.7251|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A' 
+2024-02-09 14:23:21.7251|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FAL7GU5R" completed keep alive response. 
+2024-02-09 14:23:21.7251|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5045/swagger/favicon-32x32.png - 200 628 image/png 0.6200ms 
+2024-02-09 14:23:21.7251|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5045/swagger/favicon-16x16.png - 200 665 image/png 0.7638ms 
+2024-02-09 14:23:21.8064|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FAL7GU5P" completed keep alive response. 
+2024-02-09 14:23:21.8064|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5045/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 139.0094ms 
+2024-02-09 14:24:20.2102|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN19FAL7GU5P" received FIN. 
+2024-02-09 14:24:20.2102|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN19FAL7GU5Q" received FIN. 
+2024-02-09 14:24:20.2209|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN19FAL7GU5R" received FIN. 
+2024-02-09 14:24:20.2392|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN19FAL7GU5Q" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-02-09 14:24:20.2392|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN19FAL7GU5P" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-02-09 14:24:20.2598|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN19FAL7GU5R" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-02-09 14:24:20.2860|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FAL7GU5P" disconnecting. 
+2024-02-09 14:24:20.2860|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FAL7GU5Q" disconnecting. 
+2024-02-09 14:24:20.2860|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FAL7GU5R" disconnecting. 
+2024-02-09 14:24:20.3032|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FAL7GU5Q" stopped. 
+2024-02-09 14:24:20.3032|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FAL7GU5P" stopped. 
+2024-02-09 14:24:20.3032|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FAL7GU5R" stopped. 
+2024-02-09 14:37:56.9010|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-02-09 14:37:57.1082|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5045 
+2024-02-09 14:37:57.1166|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Defis 
+2024-02-09 14:37:57.1166|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-02-09 14:37:57.1176|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-02-09 14:37:57.1187|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/jean-louisklayeri/Documents/Defi/Defis 
+2024-02-09 14:37:57.1187|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-02-09 14:37:57.2222|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FIQIUA71" accepted. 
+2024-02-09 14:37:57.2232|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FIQIUA71" started. 
+2024-02-09 14:37:57.5014|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5045/swagger/index.html - - - 
+2024-02-09 14:37:57.5112|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-02-09 14:37:57.5116|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 14:37:57.5837|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FIQIUA71" completed keep alive response. 
+2024-02-09 14:37:57.6106|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5045/swagger/index.html - 401 0 - 89.8009ms 
+2024-02-09 14:38:02.7051|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5045/swagger/index.html - - - 
+2024-02-09 14:38:02.7051|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 14:38:02.8804|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FIQIUA71" completed keep alive response. 
+2024-02-09 14:38:02.8804|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5045/swagger/index.html - 200 - text/html;charset=utf-8 175.3873ms 
+2024-02-09 14:38:03.0967|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5045/swagger/v1/swagger.json - - - 
+2024-02-09 14:38:03.0969|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 14:38:03.2289|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FIQIUA71" completed keep alive response. 
+2024-02-09 14:38:03.2289|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5045/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 132.3479ms 
+2024-02-09 14:38:57.2245|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN19FIQIUA71" received FIN. 
+2024-02-09 14:38:57.2374|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN19FIQIUA71" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-02-09 14:38:57.2424|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FIQIUA71" disconnecting. 
+2024-02-09 14:38:57.2437|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FIQIUA71" stopped. 
+2024-02-09 14:40:21.8585|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-02-09 14:40:22.0512|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5045 
+2024-02-09 14:40:22.0600|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Defis 
+2024-02-09 14:40:22.0600|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-02-09 14:40:22.0612|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-02-09 14:40:22.0612|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/jean-louisklayeri/Documents/Defi/Defis 
+2024-02-09 14:40:22.0620|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-02-09 14:40:22.1972|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FK5PH51J" accepted. 
+2024-02-09 14:40:22.1990|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FK5PH51J" started. 
+2024-02-09 14:40:22.3962|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5045/swagger/index.html - - - 
+2024-02-09 14:40:22.3995|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-02-09 14:40:22.3995|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 14:40:22.6075|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.IO.FileNotFoundException: Could not find file '/Users/jean-louisklayeri/Documents/Defi/Defis/bin/Debug/net8.0/Defis.xml'.
+File name: '/Users/jean-louisklayeri/Documents/Defi/Defis/bin/Debug/net8.0/Defis.xml'
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.<>c__DisplayClass32_0.<IncludeXmlComments>b__0()
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, Func`1 xmlDocFactory, Boolean includeControllerXmlComments)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, String filePath, Boolean includeControllerXmlComments)
+   at Defis.Helpers.ServiceExtension.<>c.<ConfigureSwagger>b__2_0(SwaggerGenOptions c) in /Users/jean-louisklayeri/Documents/Defi/Defis/Helpers/ServiceExtension.cs:line 64
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Swashbuckle.AspNetCore.SwaggerGen.ConfigureSwaggerGeneratorOptions..ctor(IOptions`1 swaggerGenOptionsAccessor, IServiceProvider serviceProvider, IWebHostEnvironment hostingEnv)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_1(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Defis.Middleware.SwaggerBasicAuthMiddleware.InvokeAsync(HttpContext context) in /Users/jean-louisklayeri/Documents/Defi/Defis/Middle/SwaggerBasicAuthMiddleware.cs:line 60
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-09 14:40:22.6823|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FK5PH51J" completed keep alive response. 
+2024-02-09 14:40:22.6875|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5045/swagger/index.html - 500 - text/html;+charset=utf-8 289.3363ms 
+2024-02-09 14:40:22.8044|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5045/favicon.ico - - - 
+2024-02-09 14:40:22.8044|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 14:40:22.8590|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.IO.FileNotFoundException: Could not find file '/Users/jean-louisklayeri/Documents/Defi/Defis/bin/Debug/net8.0/Defis.xml'.
+File name: '/Users/jean-louisklayeri/Documents/Defi/Defis/bin/Debug/net8.0/Defis.xml'
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.<>c__DisplayClass32_0.<IncludeXmlComments>b__0()
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, Func`1 xmlDocFactory, Boolean includeControllerXmlComments)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, String filePath, Boolean includeControllerXmlComments)
+   at Defis.Helpers.ServiceExtension.<>c.<ConfigureSwagger>b__2_0(SwaggerGenOptions c) in /Users/jean-louisklayeri/Documents/Defi/Defis/Helpers/ServiceExtension.cs:line 64
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Swashbuckle.AspNetCore.SwaggerGen.ConfigureSwaggerGeneratorOptions..ctor(IOptions`1 swaggerGenOptionsAccessor, IServiceProvider serviceProvider, IWebHostEnvironment hostingEnv)
+   at InvokeStub_ConfigureSwaggerGeneratorOptions..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_1(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Defis.Middleware.SwaggerBasicAuthMiddleware.InvokeAsync(HttpContext context) in /Users/jean-louisklayeri/Documents/Defi/Defis/Middle/SwaggerBasicAuthMiddleware.cs:line 78
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-09 14:40:22.8645|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FK5PH51J" completed keep alive response. 
+2024-02-09 14:40:22.8645|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5045/favicon.ico - 500 - text/plain;+charset=utf-8 60.3140ms 
+2024-02-09 14:41:23.0678|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-02-09 14:41:23.2856|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5045 
+2024-02-09 14:41:23.2948|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Defis 
+2024-02-09 14:41:23.2948|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-02-09 14:41:23.2962|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-02-09 14:41:23.2969|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/jean-louisklayeri/Documents/Defi/Defis 
+2024-02-09 14:41:23.2969|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-02-09 14:41:23.3605|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FKO0QKLT" accepted. 
+2024-02-09 14:41:23.3619|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FKO0QKLT" started. 
+2024-02-09 14:41:23.5960|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5045/swagger/index.html - - - 
+2024-02-09 14:41:23.5982|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-02-09 14:41:23.5982|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 14:41:23.8947|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FKO0QKLT" completed keep alive response. 
+2024-02-09 14:41:23.9061|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5045/swagger/index.html - 200 - text/html;charset=utf-8 301.4219ms 
+2024-02-09 14:41:24.1395|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5045/swagger/v1/swagger.json - - - 
+2024-02-09 14:41:24.1395|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 14:41:24.3025|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FKO0QKLT" completed keep alive response. 
+2024-02-09 14:41:24.3034|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5045/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 163.8690ms 
+2024-02-09 14:42:23.3530|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN19FKO0QKLT" received FIN. 
+2024-02-09 14:42:23.3660|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN19FKO0QKLT" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-02-09 14:42:23.3705|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FKO0QKLT" disconnecting. 
+2024-02-09 14:42:23.3717|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FKO0QKLT" stopped. 
+2024-02-09 14:51:35.9547|0|ERROR|Program|Stopped program because of exception System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Defis.IRepos.IAuteurRepos Lifetime: Scoped ImplementationType: API.Repos.AuteurRepos': Unable to resolve service for type 'Microsoft.Extensions.Caching.Memory.IMemoryCache' while attempting to activate 'API.Repos.AuteurRepos'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Caching.Memory.IMemoryCache' while attempting to activate 'API.Repos.AuteurRepos'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+2024-02-09 14:52:30.0884|0|ERROR|Program|Stopped program because of exception System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Defis.IRepos.IAuteurRepos Lifetime: Scoped ImplementationType: API.Repos.AuteurRepos': Unable to resolve service for type 'Microsoft.Extensions.Caching.Memory.IMemoryCache' while attempting to activate 'API.Repos.AuteurRepos'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Caching.Memory.IMemoryCache' while attempting to activate 'API.Repos.AuteurRepos'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+2024-02-09 14:53:22.7781|0|ERROR|Program|Stopped program because of exception System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Defis.IRepos.IAuteurRepos Lifetime: Scoped ImplementationType: Defis.Repos.AuteurRepos': Unable to resolve service for type 'Microsoft.Extensions.Caching.Memory.IMemoryCache' while attempting to activate 'Defis.Repos.AuteurRepos'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Caching.Memory.IMemoryCache' while attempting to activate 'Defis.Repos.AuteurRepos'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+2024-02-09 14:54:17.8966|0|ERROR|Program|Stopped program because of exception System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Defis.IRepos.IAuteurRepos Lifetime: Scoped ImplementationType: Defis.Repos.AuteurRepos': Unable to resolve service for type 'Microsoft.Extensions.Caching.Memory.IMemoryCache' while attempting to activate 'Defis.Repos.AuteurRepos'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Caching.Memory.IMemoryCache' while attempting to activate 'Defis.Repos.AuteurRepos'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+2024-02-09 14:54:38.2928|0|ERROR|Program|Stopped program because of exception System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Defis.IRepos.IAuteurRepos Lifetime: Scoped ImplementationType: Defis.Repos.AuteurRepos': Unable to resolve service for type 'Microsoft.Extensions.Caching.Memory.IMemoryCache' while attempting to activate 'Defis.Repos.AuteurRepos'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Caching.Memory.IMemoryCache' while attempting to activate 'Defis.Repos.AuteurRepos'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+2024-02-09 14:55:16.5206|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-02-09 14:55:16.7282|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5045 
+2024-02-09 14:55:16.7367|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Defis 
+2024-02-09 14:55:16.7367|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-02-09 14:55:16.7378|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-02-09 14:55:16.7378|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/jean-louisklayeri/Documents/Defi/Defis 
+2024-02-09 14:55:16.7388|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-02-09 14:55:16.8095|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FSGD73T9" accepted. 
+2024-02-09 14:55:16.8105|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FSGD73T9" started. 
+2024-02-09 14:55:17.1022|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5045/swagger/index.html - - - 
+2024-02-09 14:55:17.1047|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-02-09 14:55:17.1047|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 14:55:17.4972|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FSGD73T9" completed keep alive response. 
+2024-02-09 14:55:17.5086|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5045/swagger/index.html - 200 - text/html;charset=utf-8 398.2659ms 
+2024-02-09 14:55:17.7094|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5045/swagger/v1/swagger.json - - - 
+2024-02-09 14:55:17.7094|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 14:55:17.8591|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FSGD73T9" completed keep alive response. 
+2024-02-09 14:55:17.8591|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5045/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 149.8809ms 
+2024-02-09 14:56:16.8049|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN19FSGD73T9" received FIN. 
+2024-02-09 14:56:16.8192|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN19FSGD73T9" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-02-09 14:56:16.8244|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FSGD73T9" disconnecting. 
+2024-02-09 14:56:16.8257|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FSGD73T9" stopped. 
+2024-02-09 14:57:28.4409|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FSGD73TA" accepted. 
+2024-02-09 14:57:28.4422|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FSGD73TA" started. 
+2024-02-09 14:57:28.4428|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5045/swagger/index.html - - - 
+2024-02-09 14:57:28.4428|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 14:57:28.4452|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FSGD73TA" completed keep alive response. 
+2024-02-09 14:57:28.4452|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5045/swagger/index.html - 200 - text/html;charset=utf-8 2.4716ms 
+2024-02-09 14:57:28.5446|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5045/swagger/v1/swagger.json - - - 
+2024-02-09 14:57:28.5447|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 14:57:28.5483|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FSGD73TA" completed keep alive response. 
+2024-02-09 14:57:28.5483|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5045/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 3.8454ms 
+2024-02-09 14:58:24.0225|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN19FSGD73TA" received FIN. 
+2024-02-09 14:58:24.0546|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN19FSGD73TA" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-02-09 14:58:24.0546|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FSGD73TA" disconnecting. 
+2024-02-09 14:58:24.0546|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FSGD73TA" stopped. 
+2024-02-09 14:59:37.7758|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Config reload token fired. Checking for changes... 
+2024-02-09 14:59:37.7768|0|INFO|Microsoft.AspNetCore.Server.Kestrel|Config changed. Starting the following endpoints: 'http://localhost:1800' 
+2024-02-09 14:59:38.0783|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Config reload token fired. Checking for changes... 
+2024-02-09 14:59:39.3154|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Config reload token fired. Checking for changes... 
+2024-02-09 14:59:39.5682|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Config reload token fired. Checking for changes... 
+2024-02-09 14:59:45.5513|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-02-09 14:59:45.7439|0|WARN|Microsoft.AspNetCore.Server.Kestrel|Overriding address(es) 'http://localhost:5045'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead. 
+2024-02-09 14:59:45.7730|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1800 
+2024-02-09 14:59:45.7798|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Defis 
+2024-02-09 14:59:45.7798|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-02-09 14:59:45.7798|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-02-09 14:59:45.7807|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/jean-louisklayeri/Documents/Defi/Defis 
+2024-02-09 14:59:45.7807|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-02-09 14:59:55.0565|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FV3APEU1" accepted. 
+2024-02-09 14:59:55.0579|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FV3APEU1" started. 
+2024-02-09 14:59:55.2074|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:1800/swagger/index.html - - - 
+2024-02-09 14:59:55.2095|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-02-09 14:59:55.2095|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 14:59:55.2515|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FV3APEU1" completed keep alive response. 
+2024-02-09 14:59:55.2537|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:1800/swagger/index.html - 401 0 - 46.6189ms 
+2024-02-09 14:59:55.2708|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:1800/swagger/index.html - - - 
+2024-02-09 14:59:55.2708|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 14:59:55.2719|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FV3APEU1" completed keep alive response. 
+2024-02-09 14:59:55.2721|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:1800/swagger/index.html - 401 0 - 1.2340ms 
+2024-02-09 14:59:55.3035|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:1800/swagger/index.html - - - 
+2024-02-09 14:59:55.3035|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 14:59:55.3053|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FV3APEU1" completed keep alive response. 
+2024-02-09 14:59:55.3053|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:1800/swagger/index.html - 401 0 - 1.9463ms 
+2024-02-09 15:00:03.4844|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:1800/swagger/index.html - - - 
+2024-02-09 15:00:03.4844|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 15:00:03.6734|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FV3APEU1" completed keep alive response. 
+2024-02-09 15:00:03.6734|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:1800/swagger/index.html - 200 - text/html;charset=utf-8 189.1712ms 
+2024-02-09 15:00:03.8828|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:1800/swagger/v1/swagger.json - - - 
+2024-02-09 15:00:03.8828|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 15:00:04.0368|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FV3APEU1" completed keep alive response. 
+2024-02-09 15:00:04.0368|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:1800/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 154.3289ms 
+2024-02-09 15:00:08.9791|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:1800/api/Auteur/ListeAuteur - - 0 
+2024-02-09 15:00:08.9798|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 15:00:08.9823|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-02-09 15:00:16.7421|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FV3APEU1" completed keep alive response. 
+2024-02-09 15:00:16.7421|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:1800/api/Auteur/ListeAuteur - 402 - application/json;+charset=utf-8 7763.3103ms 
+2024-02-09 15:00:28.9121|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:1800/api/Auteur/ListeAuteur - - 0 
+2024-02-09 15:00:28.9121|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 15:00:28.9121|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-02-09 15:00:28.9132|0|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-02-09 15:00:28.9150|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FV3APEU1" completed keep alive response. 
+2024-02-09 15:00:28.9150|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:1800/api/Auteur/ListeAuteur - 404 0 - 3.0673ms 
+2024-02-09 15:00:28.9161|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:1800/api/Auteur/ListeAuteur, Response status code: 404 
+2024-02-09 15:00:33.7860|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:1800/api/Auteur/ListeAuteur - - 0 
+2024-02-09 15:00:33.7862|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 15:00:33.7862|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-02-09 15:00:33.7862|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FV3APEU1" completed keep alive response. 
+2024-02-09 15:00:33.7862|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:1800/api/Auteur/ListeAuteur - 404 0 - 0.5279ms 
+2024-02-09 15:00:33.7862|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:1800/api/Auteur/ListeAuteur, Response status code: 404 
+2024-02-09 15:00:38.8005|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:1800/api/Auteur/ListeAuteur - - 0 
+2024-02-09 15:00:38.8005|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 15:00:38.8005|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-02-09 15:00:38.8005|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FV3APEU1" completed keep alive response. 
+2024-02-09 15:00:38.8005|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:1800/api/Auteur/ListeAuteur - 404 0 - 0.4278ms 
+2024-02-09 15:00:38.8005|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:1800/api/Auteur/ListeAuteur, Response status code: 404 
+2024-02-09 15:00:39.7774|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:1800/api/Auteur/ListeAuteur - - 0 
+2024-02-09 15:00:39.7774|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 15:00:39.7774|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-02-09 15:00:39.7774|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FV3APEU1" completed keep alive response. 
+2024-02-09 15:00:39.7774|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:1800/api/Auteur/ListeAuteur - 404 0 - 0.4776ms 
+2024-02-09 15:00:39.7774|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:1800/api/Auteur/ListeAuteur, Response status code: 404 
+2024-02-09 15:00:42.0164|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:1800/api/Auteur/ListeAuteur - - 0 
+2024-02-09 15:00:42.0164|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 15:00:42.0164|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-02-09 15:00:42.0164|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FV3APEU1" completed keep alive response. 
+2024-02-09 15:00:42.0164|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:1800/api/Auteur/ListeAuteur - 404 0 - 0.5608ms 
+2024-02-09 15:00:42.0164|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:1800/api/Auteur/ListeAuteur, Response status code: 404 
+2024-02-09 15:00:42.5774|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:1800/api/Auteur/ListeAuteur - - 0 
+2024-02-09 15:00:42.5774|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 15:00:42.5774|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-02-09 15:00:42.5774|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FV3APEU1" completed keep alive response. 
+2024-02-09 15:00:42.5774|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:1800/api/Auteur/ListeAuteur - 404 0 - 0.3629ms 
+2024-02-09 15:00:42.5774|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:1800/api/Auteur/ListeAuteur, Response status code: 404 
+2024-02-09 15:01:04.4572|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:1800/api/Auteur/ListeAuteur - - 0 
+2024-02-09 15:01:04.4572|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 15:01:04.4572|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-02-09 15:01:38.8162|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FV3APEU1" completed keep alive response. 
+2024-02-09 15:01:38.8215|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:1800/api/Auteur/ListeAuteur - 404 0 - 34359.8478ms 
+2024-02-09 15:01:38.8215|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:1800/api/Auteur/ListeAuteur, Response status code: 404 
+2024-02-09 15:02:15.8672|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN19FV3APEU1" received FIN. 
+2024-02-09 15:02:15.8799|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN19FV3APEU1" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-02-09 15:02:15.8845|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FV3APEU1" disconnecting. 
+2024-02-09 15:02:15.8857|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19FV3APEU1" stopped. 
+2024-02-09 15:03:15.7262|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-02-09 15:03:15.7922|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-02-09 15:03:15.9050|0|WARN|Microsoft.AspNetCore.Server.Kestrel|Overriding address(es) 'http://localhost:5045'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead. 
+2024-02-09 15:03:15.9313|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1800 
+2024-02-09 15:03:15.9377|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Defis 
+2024-02-09 15:03:15.9377|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-02-09 15:03:15.9377|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-02-09 15:03:15.9386|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/jean-louisklayeri/Documents/Defi/Defis 
+2024-02-09 15:03:15.9386|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-02-09 15:03:20.4729|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19G10HPG9L" accepted. 
+2024-02-09 15:03:20.4746|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19G10HPG9L" started. 
+2024-02-09 15:03:20.5207|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:1800/api/Auteur/ListeAuteur - - 0 
+2024-02-09 15:03:20.5229|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-02-09 15:03:20.5229|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 15:03:20.5487|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Auteur/ListeAuteur' 
+2024-02-09 15:03:20.5513|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Defis.Controllers.AuteurController.ListeDesTypeperiodicite (Defis)' with route pattern 'api/Auteur/ListeAuteur' is valid for the request path '/api/Auteur/ListeAuteur' 
+2024-02-09 15:03:20.5524|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Defis.Controllers.AuteurController.ListeDesTypeperiodicite (Defis)' 
+2024-02-09 15:03:20.5535|0|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-02-09 15:03:20.6029|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2024-02-09 15:03:25.1191|0|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-02-09 15:03:25.1226|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Defis.Controllers.AuteurController.ListeDesTypeperiodicite (Defis)' 
+2024-02-09 15:03:25.1492|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ListeDesTypeperiodicite", controller = "Auteur"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ListeDesTypeperiodicite() on controller Defis.Controllers.AuteurController (Defis). 
+2024-02-09 15:03:25.1516|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-02-09 15:03:25.1516|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-02-09 15:03:25.1527|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000), Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter 
+2024-02-09 15:03:25.1527|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-02-09 15:03:25.1529|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-02-09 15:03:25.1562|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Defis.Controllers.AuteurController (Defis) 
+2024-02-09 15:03:25.4287|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-02-09 15:03:26.2154|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 8.0.1 initialized 'DataContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:8.0.0+2539d1f4bd0d429cbae20336d531d14938a54297' with options: None 
+2024-02-09 15:03:26.2231|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-02-09 15:03:26.2779|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (51ms). 
+2024-02-09 15:03:26.2790|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Defis.Controllers.AuteurController (Defis) 
+2024-02-09 15:03:26.2790|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-02-09 15:03:26.2801|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-02-09 15:03:26.2801|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-02-09 15:03:26.2801|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-02-09 15:03:26.2801|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter. 
+2024-02-09 15:03:26.2812|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter. 
+2024-02-09 15:03:26.2891|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Defis.Controllers.AuteurController.ListeDesTypeperiodicite (Defis) - Validation state: Valid 
+2024-02-09 15:03:35.8452|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<Auteur>()' 
+2024-02-09 15:03:36.0283|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Auteur>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Auteur.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Auteur.Code (string) MaxLength(50), 1], [Property: Auteur.DateCreation (DateTime?), 2], [Property: Auteur.DateModification (DateTime?), 3], [Property: Auteur.Description (string), 4], [Property: Auteur.EstActif (bool?) ValueGenerated.OnAdd, 5], [Property: Auteur.Libelle (string) MaxLength(220), 6], [Property: Auteur.ModifierPar (string) MaxLength(30), 7], [Property: Auteur.Userid (string) MaxLength(30), 8] }
+        SELECT a.id, a.code, a.date_creation, a.date_modification, a.description, a.est_actif, a.libelle, a.modifier_par, a.userid
+        FROM auteurs AS a), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Auteur>, 
+    Defis.Models.DataContext, 
+    False, 
+    False, 
+    True
+)' 
+2024-02-09 15:03:36.0535|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'movies' on server 'tcp://5.182.33.229:5430'. 
+2024-02-09 15:03:36.9888|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'movies' on server 'tcp://5.182.33.229:5430'. 
+2024-02-09 15:03:36.9921|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-02-09 15:03:36.9976|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (3ms). 
+2024-02-09 15:03:36.9986|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (7ms). 
+2024-02-09 15:03:37.0039|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a.id, a.code, a.date_creation, a.date_modification, a.description, a.est_actif, a.libelle, a.modifier_par, a.userid
+FROM auteurs AS a 
+2024-02-09 15:03:37.2161|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (209ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a.id, a.code, a.date_creation, a.date_modification, a.description, a.est_actif, a.libelle, a.modifier_par, a.userid
+FROM auteurs AS a 
+2024-02-09 15:03:37.2233|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'movies' on server 'tcp://5.182.33.229:5430'. 
+2024-02-09 15:03:37.2315|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'movies' on server 'tcp://5.182.33.229:5430' is being disposed after spending 11ms reading results. 
+2024-02-09 15:03:37.2347|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'movies' on server 'tcp://5.182.33.229:5430'. 
+2024-02-09 15:03:37.2383|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'movies' on server 'tcp://5.182.33.229:5430' (3ms). 
+2024-02-09 15:03:40.2014|0|INFO|Defis.Controllers.AuteurController| Recuperation des auteurs 
+2024-02-09 15:03:40.2105|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Defis.Controllers.AuteurController.ListeDesTypeperiodicite (Defis), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 13914.7241ms. 
+2024-02-09 15:03:40.2105|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter. 
+2024-02-09 15:03:40.2105|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter. 
+2024-02-09 15:03:40.2105|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-02-09 15:03:40.2114|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-02-09 15:03:40.2114|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-02-09 15:03:40.2114|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-02-09 15:03:40.2132|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-02-09 15:03:40.2132|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-02-09 15:03:40.2144|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-02-09 15:03:40.2185|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter 
+2024-02-09 15:03:40.2207|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2024-02-09 15:03:40.2207|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-02-09 15:03:40.2207|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-02-09 15:03:40.2220|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-02-09 15:03:40.2224|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'Defis.Dto.StatusReport'. 
+2024-02-09 15:03:40.3520|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-02-09 15:03:40.3520|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-02-09 15:03:40.3520|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-02-09 15:03:40.3575|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Defis.Controllers.AuteurController.ListeDesTypeperiodicite (Defis) in 15199.5486ms 
+2024-02-09 15:03:40.3575|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Defis.Controllers.AuteurController.ListeDesTypeperiodicite (Defis)' 
+2024-02-09 15:03:40.3610|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19G10HPG9L" completed keep alive response. 
+2024-02-09 15:03:40.3639|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'DataContext' disposed. 
+2024-02-09 15:03:40.3678|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'movies' on server 'tcp://5.182.33.229:5430'. 
+2024-02-09 15:03:40.3692|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database 'movies' on server 'tcp://5.182.33.229:5430' (1ms). 
+2024-02-09 15:03:40.3703|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:1800/api/Auteur/ListeAuteur - 200 59 application/json;+charset=utf-8 19850.0524ms 
+2024-02-09 15:04:15.9978|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN19G10HPG9L" received FIN. 
+2024-02-09 15:04:16.0049|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN19G10HPG9L" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-02-09 15:04:16.0109|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19G10HPG9L" disconnecting. 
+2024-02-09 15:04:16.0128|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19G10HPG9L" stopped. 
+2024-02-09 15:12:59.3228|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-02-09 15:12:59.3954|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-02-09 15:12:59.5207|0|WARN|Microsoft.AspNetCore.Server.Kestrel|Overriding address(es) 'http://localhost:5045'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead. 
+2024-02-09 15:12:59.5501|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1800 
+2024-02-09 15:12:59.5573|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Defis 
+2024-02-09 15:12:59.5573|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-02-09 15:12:59.5573|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-02-09 15:12:59.5582|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/jean-louisklayeri/Documents/Defi/Defis 
+2024-02-09 15:12:59.5582|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-02-09 15:13:39.4360|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-02-09 15:13:39.4998|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-02-09 15:13:39.6081|0|WARN|Microsoft.AspNetCore.Server.Kestrel|Overriding address(es) 'http://localhost:5045'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead. 
+2024-02-09 15:13:39.6346|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1800 
+2024-02-09 15:13:39.6408|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Defis 
+2024-02-09 15:13:39.6415|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-02-09 15:13:39.6415|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-02-09 15:13:39.6415|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/jean-louisklayeri/Documents/Defi/Defis 
+2024-02-09 15:13:39.6425|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-02-09 15:13:47.4873|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19G6RDF4UR" accepted. 
+2024-02-09 15:13:47.4883|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19G6RDF4UR" started. 
+2024-02-09 15:13:47.5307|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:1800/swagger/index.html - - - 
+2024-02-09 15:13:47.5327|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-02-09 15:13:47.5327|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 15:13:47.5497|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html' 
+2024-02-09 15:13:47.5497|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-02-09 15:13:47.6755|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19G6RDF4UR" completed keep alive response. 
+2024-02-09 15:13:47.6779|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:1800/swagger/index.html - 200 - text/html;charset=utf-8 147.2972ms 
+2024-02-09 15:13:47.7741|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:1800/swagger/v1/swagger.json - - - 
+2024-02-09 15:13:47.7741|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 15:13:47.7756|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json' 
+2024-02-09 15:13:47.7756|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-02-09 15:13:47.9062|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19G6RDF4UR" completed keep alive response. 
+2024-02-09 15:13:47.9062|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:1800/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 132.3167ms 
+2024-02-09 15:14:18.4195|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:1800/api/Auteur/CreationAuteur - application/json-patch+json 181 
+2024-02-09 15:14:18.4200|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 15:14:18.4557|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Auteur/CreationAuteur' 
+2024-02-09 15:14:18.4584|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Defis.Controllers.AuteurController.CreationAuteur (Defis)' with route pattern 'api/Auteur/CreationAuteur' is valid for the request path '/api/Auteur/CreationAuteur' 
+2024-02-09 15:14:18.4589|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Defis.Controllers.AuteurController.CreationAuteur (Defis)' 
+2024-02-09 15:14:18.4596|0|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-02-09 15:14:18.4621|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2024-02-09 15:14:24.4727|0|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-02-09 15:14:24.4764|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Defis.Controllers.AuteurController.CreationAuteur (Defis)' 
+2024-02-09 15:14:24.5084|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "CreationAuteur", controller = "Auteur"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreationAuteur(Defis.Dto.DtoAuteur) on controller Defis.Controllers.AuteurController (Defis). 
+2024-02-09 15:14:24.5108|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-02-09 15:14:24.5108|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-02-09 15:14:24.5119|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-02-09 15:14:24.5119|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-02-09 15:14:24.5119|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-02-09 15:14:24.5145|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Defis.Controllers.AuteurController (Defis) 
+2024-02-09 15:14:24.8998|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-02-09 15:14:25.8494|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 8.0.1 initialized 'DataContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:8.0.0+2539d1f4bd0d429cbae20336d531d14938a54297' with options: None 
+2024-02-09 15:14:25.8572|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-02-09 15:14:25.9044|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (44ms). 
+2024-02-09 15:14:25.9049|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Defis.Controllers.AuteurController (Defis) 
+2024-02-09 15:14:25.9099|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'data' of type 'Defis.Dto.DtoAuteur' ... 
+2024-02-09 15:14:25.9119|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'data' of type 'Defis.Dto.DtoAuteur' using the name '' in request data ... 
+2024-02-09 15:14:25.9128|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'. 
+2024-02-09 15:14:25.9128|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'. 
+2024-02-09 15:14:25.9392|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN19G6RDF4UR", Request id "0HN19G6RDF4UR:00000003": started reading request body. 
+2024-02-09 15:14:25.9392|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN19G6RDF4UR", Request id "0HN19G6RDF4UR:00000003": done reading request body. 
+2024-02-09 15:14:26.0361|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'data' of type 'Defis.Dto.DtoAuteur'. 
+2024-02-09 15:14:26.0361|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'data' of type 'Defis.Dto.DtoAuteur'. 
+2024-02-09 15:14:26.0361|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'data' of type 'Defis.Dto.DtoAuteur' ... 
+2024-02-09 15:14:26.0476|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'data' of type 'Defis.Dto.DtoAuteur'. 
+2024-02-09 15:14:26.0492|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-02-09 15:14:26.0492|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-02-09 15:14:26.0492|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-02-09 15:14:26.0492|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-02-09 15:14:26.0558|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Defis.Controllers.AuteurController.CreationAuteur (Defis) - Validation state: Valid 
+2024-02-09 15:14:26.0558|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Defis.Controllers.AuteurController.CreationAuteur (Defis) with arguments (Defis.Dto.DtoAuteur) 
+2024-02-09 15:14:26.1055|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|'DataContext' generated a temporary value for the property 'Auteur.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-02-09 15:14:26.1635|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'DataContext' started tracking 'Auteur' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-02-09 15:14:26.1670|0|DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges starting for 'DataContext'. 
+2024-02-09 15:14:26.1696|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges starting for 'DataContext'. 
+2024-02-09 15:14:26.1839|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges completed for 'DataContext'. 
+2024-02-09 15:14:26.2482|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'movies' on server 'tcp://5.182.33.229:5430'. 
+2024-02-09 15:14:27.0787|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'movies' on server 'tcp://5.182.33.229:5430'. 
+2024-02-09 15:14:27.0866|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-02-09 15:14:27.0934|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (3ms). 
+2024-02-09 15:14:27.0993|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (12ms). 
+2024-02-09 15:14:27.1065|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@p0='?', @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?', @p4='?' (DbType = Boolean), @p5='?', @p6='?', @p7='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO auteurs (code, date_creation, date_modification, description, est_actif, libelle, modifier_par, userid)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7)
+RETURNING id; 
+2024-02-09 15:14:27.2929|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (185ms) [Parameters=[@p0='?', @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?', @p4='?' (DbType = Boolean), @p5='?', @p6='?', @p7='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO auteurs (code, date_creation, date_modification, description, est_actif, libelle, modifier_par, userid)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7)
+RETURNING id; 
+2024-02-09 15:14:27.3126|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The foreign key property 'Auteur.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2024-02-09 15:14:27.3222|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'movies' on server 'tcp://5.182.33.229:5430'. 
+2024-02-09 15:14:27.3304|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'movies' on server 'tcp://5.182.33.229:5430' is being disposed after spending 32ms reading results. 
+2024-02-09 15:14:27.3345|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'movies' on server 'tcp://5.182.33.229:5430'. 
+2024-02-09 15:14:27.3392|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'movies' on server 'tcp://5.182.33.229:5430' (4ms). 
+2024-02-09 15:14:27.3511|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'Auteur' tracked by 'DataContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-02-09 15:14:27.3527|0|DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges completed for 'DataContext' with 1 entities written to the database. 
+2024-02-09 15:14:27.3579|0|INFO|Defis.Controllers.AuteurController| Enregistrement Auteur 
+2024-02-09 15:14:27.3663|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Defis.Controllers.AuteurController.CreationAuteur (Defis), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1304.7522ms. 
+2024-02-09 15:14:27.3669|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-02-09 15:14:27.3669|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-02-09 15:14:27.3669|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-02-09 15:14:27.3669|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-02-09 15:14:27.3680|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-02-09 15:14:27.3680|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-02-09 15:14:27.3690|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-02-09 15:14:27.3726|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter 
+2024-02-09 15:14:27.3742|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2024-02-09 15:14:27.3742|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-02-09 15:14:27.3742|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-02-09 15:14:27.3751|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-02-09 15:14:27.3751|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'Defis.Dto.StatusReport'. 
+2024-02-09 15:14:27.4069|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-02-09 15:14:27.4069|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-02-09 15:14:27.4069|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-02-09 15:14:27.4125|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Defis.Controllers.AuteurController.CreationAuteur (Defis) in 2895.615ms 
+2024-02-09 15:14:27.4132|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Defis.Controllers.AuteurController.CreationAuteur (Defis)' 
+2024-02-09 15:14:27.4154|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19G6RDF4UR" completed keep alive response. 
+2024-02-09 15:14:27.4174|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'DataContext' disposed. 
+2024-02-09 15:14:27.4210|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'movies' on server 'tcp://5.182.33.229:5430'. 
+2024-02-09 15:14:27.4224|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database 'movies' on server 'tcp://5.182.33.229:5430' (1ms). 
+2024-02-09 15:14:27.4229|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:1800/api/Auteur/CreationAuteur - 200 266 application/json;+charset=utf-8 9003.1809ms 
+2024-02-09 15:15:09.6926|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN19G6RDF4UR" received FIN. 
+2024-02-09 15:15:09.7307|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN19G6RDF4UR" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-02-09 15:15:09.7358|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19G6RDF4UR" disconnecting. 
+2024-02-09 15:15:09.7373|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19G6RDF4UR" stopped. 
+2024-02-09 15:15:10.6767|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19G6RDF4US" accepted. 
+2024-02-09 15:15:10.7055|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19G6RDF4US" started. 
+2024-02-09 15:15:10.7055|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:1800/api/Auteur/ListeAuteur - - 0 
+2024-02-09 15:15:10.7061|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-02-09 15:15:10.7061|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Auteur/ListeAuteur' 
+2024-02-09 15:15:10.7061|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Defis.Controllers.AuteurController.ListeAuteur (Defis)' with route pattern 'api/Auteur/ListeAuteur' is valid for the request path '/api/Auteur/ListeAuteur' 
+2024-02-09 15:15:10.7071|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Defis.Controllers.AuteurController.ListeAuteur (Defis)' 
+2024-02-09 15:15:10.7071|0|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-02-09 15:15:10.7071|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2024-02-09 15:15:10.7071|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Defis.Controllers.AuteurController.ListeAuteur (Defis)' 
+2024-02-09 15:15:10.7146|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ListeAuteur", controller = "Auteur"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ListeAuteur() on controller Defis.Controllers.AuteurController (Defis). 
+2024-02-09 15:15:10.7146|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-02-09 15:15:10.7146|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-02-09 15:15:10.7146|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000), Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter 
+2024-02-09 15:15:10.7146|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-02-09 15:15:10.7146|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-02-09 15:15:10.7151|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Defis.Controllers.AuteurController (Defis) 
+2024-02-09 15:15:10.7308|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 8.0.1 initialized 'DataContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:8.0.0+2539d1f4bd0d429cbae20336d531d14938a54297' with options: None 
+2024-02-09 15:15:10.7326|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-02-09 15:15:10.7326|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2024-02-09 15:15:10.7326|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Defis.Controllers.AuteurController (Defis) 
+2024-02-09 15:15:10.7326|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-02-09 15:15:10.7331|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-02-09 15:15:10.7331|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-02-09 15:15:10.7331|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-02-09 15:15:10.7331|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter. 
+2024-02-09 15:15:10.7331|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter. 
+2024-02-09 15:15:10.7331|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Defis.Controllers.AuteurController.ListeAuteur (Defis) - Validation state: Valid 
+2024-02-09 15:15:20.2869|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<Auteur>()' 
+2024-02-09 15:15:20.4628|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Auteur>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Auteur.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Auteur.Code (string) MaxLength(50), 1], [Property: Auteur.DateCreation (DateTime?), 2], [Property: Auteur.DateModification (DateTime?), 3], [Property: Auteur.Description (string), 4], [Property: Auteur.EstActif (bool?) ValueGenerated.OnAdd, 5], [Property: Auteur.Libelle (string) MaxLength(220), 6], [Property: Auteur.ModifierPar (string) MaxLength(30), 7], [Property: Auteur.Userid (string) MaxLength(30), 8] }
+        SELECT a.id, a.code, a.date_creation, a.date_modification, a.description, a.est_actif, a.libelle, a.modifier_par, a.userid
+        FROM auteurs AS a), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Auteur>, 
+    Defis.Models.DataContext, 
+    False, 
+    False, 
+    True
+)' 
+2024-02-09 15:15:20.4854|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'movies' on server 'tcp://5.182.33.229:5430'. 
+2024-02-09 15:15:20.4858|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'movies' on server 'tcp://5.182.33.229:5430'. 
+2024-02-09 15:15:20.4858|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-02-09 15:15:20.4858|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-02-09 15:15:20.4858|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-02-09 15:15:20.4858|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a.id, a.code, a.date_creation, a.date_modification, a.description, a.est_actif, a.libelle, a.modifier_par, a.userid
+FROM auteurs AS a 
+2024-02-09 15:15:20.5969|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (111ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a.id, a.code, a.date_creation, a.date_modification, a.description, a.est_actif, a.libelle, a.modifier_par, a.userid
+FROM auteurs AS a 
+2024-02-09 15:15:20.6075|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'DataContext' started tracking 'Auteur' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-02-09 15:15:20.6094|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'movies' on server 'tcp://5.182.33.229:5430'. 
+2024-02-09 15:15:20.6107|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'movies' on server 'tcp://5.182.33.229:5430' is being disposed after spending 13ms reading results. 
+2024-02-09 15:15:20.6107|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'movies' on server 'tcp://5.182.33.229:5430'. 
+2024-02-09 15:15:20.6107|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'movies' on server 'tcp://5.182.33.229:5430' (0ms). 
+2024-02-09 15:15:20.6107|0|INFO|Defis.Controllers.AuteurController| Recuperation des auteurs 
+2024-02-09 15:15:20.6121|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Defis.Controllers.AuteurController.ListeAuteur (Defis), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 9877.8208ms. 
+2024-02-09 15:15:20.6121|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter. 
+2024-02-09 15:15:20.6121|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter. 
+2024-02-09 15:15:20.6121|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-02-09 15:15:20.6121|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-02-09 15:15:20.6124|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-02-09 15:15:20.6124|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-02-09 15:15:20.6124|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-02-09 15:15:20.6124|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-02-09 15:15:20.6124|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-02-09 15:15:20.6124|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter 
+2024-02-09 15:15:20.6124|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2024-02-09 15:15:20.6124|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-02-09 15:15:20.6124|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-02-09 15:15:20.6124|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-02-09 15:15:20.6124|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'Defis.Dto.StatusReport'. 
+2024-02-09 15:15:20.6254|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-02-09 15:15:20.6254|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-02-09 15:15:20.6254|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-02-09 15:15:20.6254|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Defis.Controllers.AuteurController.ListeAuteur (Defis) in 9910.2999ms 
+2024-02-09 15:15:20.6254|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Defis.Controllers.AuteurController.ListeAuteur (Defis)' 
+2024-02-09 15:15:20.6254|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19G6RDF4US" completed keep alive response. 
+2024-02-09 15:15:20.6254|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'DataContext' disposed. 
+2024-02-09 15:15:20.6254|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'movies' on server 'tcp://5.182.33.229:5430'. 
+2024-02-09 15:15:20.6254|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database 'movies' on server 'tcp://5.182.33.229:5430' (0ms). 
+2024-02-09 15:15:20.6254|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:1800/api/Auteur/ListeAuteur - 200 299 application/json;+charset=utf-8 9919.8744ms 
+2024-02-09 15:16:10.6201|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN19G6RDF4US" received FIN. 
+2024-02-09 15:16:10.6220|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN19G6RDF4US" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-02-09 15:16:10.6257|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19G6RDF4US" disconnecting. 
+2024-02-09 15:16:10.6288|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN19G6RDF4US" stopped. 
