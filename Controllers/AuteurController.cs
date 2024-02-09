@@ -68,14 +68,13 @@ public class AuteurController : ControllerBase
         }
 
 
-  /// <summary>
+         /// <summary>
         /// Auteur -  Save Auteur
         /// </summary>
         /// <remarks>
         /// Enregistrement Auteur 
         /// </remarks>   
         [HttpPost("CreationAuteur")]
-
         public async Task<IActionResult> CreationAuteur([FromBody] DtoAuteur data)
         {
             var resultat = new StatusReport();
@@ -138,5 +137,72 @@ public class AuteurController : ControllerBase
         }
         
       
+       /// <summary>
+        /// Auteur -  Update Auteur
+        /// </summary>
+        /// <remarks>
+        /// Enregistrement Auteur 
+        /// </remarks>   
+        [HttpPost("UpdateAuteur")]
+        public async Task<IActionResult> UpdateAuteur([FromBody] DtoAuteur data)
+        {
+            var resultat = new StatusReport();
+            try
+            {
+                var date = DateTime.UtcNow;
+
+
+                if (!ModelState.IsValid)
+                {
+                    _logger.Info($" Paramettre Invalide");
+                    resultat.Message = " Paramettre Invalide";
+                    resultat.Valide = false;
+                    resultat.Resultat = null;
+                    return BadRequest(ModelState);
+                }
+
+
+
+                var save = await _repos.SaveAuteur(data);
+
+                if (save == null)
+                {
+
+
+                    resultat.Message = "maj Auteur ";
+                    resultat.Valide = false;
+                    resultat.Resultat = null;
+                    _logger.Info($" Echec maj Auteur");
+                    return BadRequest(resultat);
+                }
+
+                var savedto = _mapper.Map<DtoAuteur>(save);
+
+                _logger.Info($" Enregistrement Auteur");
+                resultat.Message = "Enregistrement Auteur";
+                resultat.Valide = true;
+                resultat.Resultat = savedto;
+
+
+                return Ok(resultat);
+            }
+            catch (Exception ex)
+            {
+                _logger.Error($"Erreur Auteur");
+                _logger.Debug(ex.Message);
+               
+                resultat.Message = ex.Message;
+                resultat.Valide = false;
+                resultat.Resultat = null;
+                _logger.Info($" Echec Enregistrement Auteur");
+                return BadRequest(resultat);
+            }
+            finally
+            {
+
+                
+            }
+        }
+        
 
 }

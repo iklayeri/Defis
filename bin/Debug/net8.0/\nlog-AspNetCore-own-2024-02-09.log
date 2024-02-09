@@ -218,3 +218,25 @@ File name: '/Users/jean-louisklayeri/Documents/Defi/Defis/bin/Debug/net8.0/Defis
 2024-02-09 15:30:50.7106|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
 2024-02-09 15:30:50.7106|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
 2024-02-09 15:30:50.7106|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/jean-louisklayeri/Documents/Defi/Defis |url: |action: 
+2024-02-09 15:37:54.3851|0|WARN|Microsoft.AspNetCore.Server.Kestrel|Overriding address(es) 'http://localhost:5045'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead. |url: |action: 
+2024-02-09 15:37:54.4104|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1800 |url: |action: 
+2024-02-09 15:37:54.4168|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-02-09 15:37:54.4168|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-02-09 15:37:54.4177|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/jean-louisklayeri/Documents/Defi/Defis |url: |action: 
+2024-02-09 15:38:19.0975|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/Auteur/CreationAuteur" for actions - Defis.Controllers.AuteurController.CreationAuteur (Defis),Defis.Controllers.AuteurController.UpdateAuteur (Defis). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Defis.Middleware.SwaggerBasicAuthMiddleware.InvokeAsync(HttpContext context) in /Users/jean-louisklayeri/Documents/Defi/Defis/Middle/SwaggerBasicAuthMiddleware.cs:line 60
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: http://localhost/swagger/v1/swagger.json|action: 
+2024-02-09 15:38:41.6149|0|WARN|Microsoft.AspNetCore.Server.Kestrel|Overriding address(es) 'http://localhost:5045'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead. |url: |action: 
+2024-02-09 15:38:41.6618|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1800 |url: |action: 
+2024-02-09 15:38:41.6674|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-02-09 15:38:41.6682|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-02-09 15:38:41.6682|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /Users/jean-louisklayeri/Documents/Defi/Defis |url: |action: 
+2024-02-09 15:39:19.6792|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Auteur/UpdateAuteur|action: UpdateAuteur
+2024-02-09 15:39:22.5013|0|INFO|Defis.Controllers.AuteurController| Enregistrement Auteur |url: http://localhost/api/Auteur/UpdateAuteur|action: UpdateAuteur

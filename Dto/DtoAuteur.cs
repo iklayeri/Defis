@@ -8,7 +8,6 @@ public  class DtoAuteur
 {
     public int Id { get; set; }
 
-
     public string? Code { get; set; }
     [Required]
     public string? Libelle { get; set; }

@@ -19,6 +19,14 @@
             Enregistrement Auteur 
             </remarks>   
         </member>
+        <member name="M:Defis.Controllers.AuteurController.UpdateAuteur(Defis.Dto.DtoAuteur)">
+            <summary>
+            Auteur -  Update Auteur
+            </summary>
+            <remarks>
+            Enregistrement Auteur 
+            </remarks>   
+        </member>
         <member name="M:Defis.Controllers.CategorieController.ListeCategorie">
              <summary>
             Liste des categorie

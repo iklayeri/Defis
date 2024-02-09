@@ -67,7 +67,8 @@ namespace Defis.Repos
 
             try {
 
-              dalObjet = _mapper.Map<Auteur>(dtoObjet) ;
+                if(dtoObjet.Id ==0) {
+                       dalObjet = _mapper.Map<Auteur>(dtoObjet) ;
             dalObjet.Code =new Guid().ToString();
                  dalObjet.DateCreation = dateoperation;
                  dalObjet.ModifierPar = dtoObjet.Userid;
@@ -75,6 +76,16 @@ namespace Defis.Repos
             
 
              await _context.Auteurs.AddAsync(dalObjet);
+                } else {
+                   dalObjet = await  _context.Auteurs.FirstOrDefaultAsync(x=> x.Id == dtoObjet.Id );
+                   dalObjet.Libelle = dtoObjet.Libelle;
+                   dalObjet.Description = dtoObjet.Description;
+                    dalObjet.DateModification = dateoperation;
+                     dalObjet.ModifierPar = dtoObjet.Userid;
+                     _context.Auteurs.Update(dalObjet);
+                }
+
+           
             await _context.SaveChangesAsync();
 
            
