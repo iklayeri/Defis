@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JLK")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fec7d3349d83d5cbc11feb13c1617cb9d807872")]
 [assembly: System.Reflection.AssemblyProductAttribute("DEfi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Defis")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

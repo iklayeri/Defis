@@ -10,20 +10,12 @@ namespace Defis.Helpers
     {
          public AutoMapper()
         {
-            //  CreateMap<Personne, PersonneDto>()
-            // .ForMember(dest => dest.Image, opt =>
-            // {
-            //     // opt.MapFrom(d => d.Photo.ByteToString());
-            //     opt.MapFrom(d => d.Image);
-            // });
+            
              CreateMap<DtoAuteur, Auteur>();
                CreateMap<Auteur, DtoAuteur>();
-            //  CreateMap<Connexion, ConnexionDto>();
-            //   CreateMap<Personnephysique, PersonnephysiqueDto>();
-            //    CreateMap<Client, ClientDto>();
-            //    CreateMap<Profession, ProfessionDto>();
-            //     CreateMap<Modecontact, ModeContactDto>();
-            //      CreateMap<CreditSimutaionDto, CreditRegister>();
+                CreateMap<DtoCategorie, Category>();
+               CreateMap<Category, DtoCategorie>();
+            
         }
     }
 }

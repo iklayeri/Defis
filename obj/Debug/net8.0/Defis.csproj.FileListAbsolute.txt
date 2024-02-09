@@ -191,3 +191,4 @@
 /Users/jean-louisklayeri/Documents/Defi/Defis/obj/Debug/net8.0/ref/Defis.dll
 /Users/jean-louisklayeri/Documents/Defi/Defis/bin/Debug/net8.0/Defis.xml
 /Users/jean-louisklayeri/Documents/Defi/Defis/obj/Debug/net8.0/Defis.xml
+/Users/jean-louisklayeri/Documents/Defi/Defis/obj/Debug/net8.0/Defis.sourcelink.json

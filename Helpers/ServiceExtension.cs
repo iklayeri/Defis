@@ -149,6 +149,8 @@ namespace  Defis.Helpers
         public static void ConfigureInterface(this WebApplicationBuilder builder)
         {
            builder.Services.AddScoped<IAuteurRepos, AuteurRepos>();
+             builder.Services.AddScoped<ICategorie, CategorieRepos>();
+               builder.Services.AddScoped<IFilmRepos, FilmRepos>();
        
 
         }

@@ -19,5 +19,20 @@
             Enregistrement Auteur 
             </remarks>   
         </member>
+        <member name="M:Defis.Controllers.CategorieController.ListeCategorie">
+             <summary>
+            Liste des categorie
+             </summary>
+             <remarks>
+             </remarks>   
+        </member>
+        <member name="M:Defis.Controllers.CategorieController.CreationCategorie(Defis.Dto.DtoCategorie)">
+            <summary>
+            Categorie -  Save Categorie
+            </summary>
+            <remarks>
+            Enregistrement Categorie 
+            </remarks>   
+        </member>
     </members>
 </doc>

@@ -6634,3 +6634,550 @@
 2024-02-09 15:15:10.7092 Debug Logger Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter [Warn] => logfile ownFile-web
 2024-02-09 15:15:10.7092 Debug Logger Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter [Error] => logfile ownFile-web
 2024-02-09 15:15:10.7092 Debug Logger Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter [Fatal] => logfile ownFile-web
+2024-02-09 15:30:48.8184 Debug Message Template Auto Format enabled
+2024-02-09 15:30:48.8670 Debug Skipped already loaded assembly name: NLog.Web.AspNetCore
+2024-02-09 15:30:48.9078 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:48.9092 Trace Scanning BaseDirLayoutRenderer 'Layout Renderer: ${basedir}'
+2024-02-09 15:30:48.9135 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:48.9135 Trace Scanning DateLayoutRenderer 'Layout Renderer: ${date}'
+2024-02-09 15:30:48.9183 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:48.9183 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-02-09 15:30:48.9199 Trace Wrapping NLog.LayoutRenderers.EventPropertiesLayoutRenderer with NLog.LayoutRenderers.Wrappers.WhenEmptyLayoutRendererWrapper
+2024-02-09 15:30:48.9200 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:48.9200 Trace Scanning EventPropertiesLayoutRenderer 'Layout Renderer: ${event-properties}'
+2024-02-09 15:30:48.9200 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:48.9200 Trace Scanning WhenEmptyLayoutRendererWrapper 'Layout Renderer: ${whenEmpty}'
+2024-02-09 15:30:48.9227 Trace  Scanning Property WhenEmpty '0' NLog.Layouts.Layout
+2024-02-09 15:30:48.9230 Trace  Scanning SimpleLayout '0'
+2024-02-09 15:30:48.9230 Trace   Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-02-09 15:30:48.9246 Trace   Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:48.9257 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${event-properties}' NLog.Layouts.Layout
+2024-02-09 15:30:48.9259 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${event-properties}'
+2024-02-09 15:30:48.9281 Trace   Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-02-09 15:30:48.9281 Trace   Scanning EventPropertiesLayoutRenderer 'Layout Renderer: ${event-properties}'
+2024-02-09 15:30:48.9291 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:48.9291 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-02-09 15:30:48.9291 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:48.9291 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-02-09 15:30:48.9291 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:48.9291 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-02-09 15:30:48.9362 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:48.9362 Trace Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2024-02-09 15:30:48.9362 Trace  Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2024-02-09 15:30:48.9374 Debug Adding target NLog.Targets.FileTarget(Name=logfile)
+2024-02-09 15:30:48.9380 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-09 15:30:48.9392 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:48.9392 Trace Scanning BaseDirLayoutRenderer 'Layout Renderer: ${basedir}'
+2024-02-09 15:30:48.9392 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:48.9399 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-02-09 15:30:48.9399 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:48.9399 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-02-09 15:30:48.9399 Trace Wrapping NLog.LayoutRenderers.EventPropertiesLayoutRenderer with NLog.LayoutRenderers.Wrappers.WhenEmptyLayoutRendererWrapper
+2024-02-09 15:30:48.9410 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:48.9410 Trace Scanning EventPropertiesLayoutRenderer 'Layout Renderer: ${event-properties}'
+2024-02-09 15:30:48.9410 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:48.9410 Trace Scanning WhenEmptyLayoutRendererWrapper 'Layout Renderer: ${whenEmpty}'
+2024-02-09 15:30:48.9410 Trace  Scanning Property WhenEmpty '0' NLog.Layouts.Layout
+2024-02-09 15:30:48.9410 Trace  Scanning SimpleLayout '0'
+2024-02-09 15:30:48.9410 Trace   Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-02-09 15:30:48.9419 Trace   Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:48.9419 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${event-properties}' NLog.Layouts.Layout
+2024-02-09 15:30:48.9419 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${event-properties}'
+2024-02-09 15:30:48.9419 Trace   Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-02-09 15:30:48.9419 Trace   Scanning EventPropertiesLayoutRenderer 'Layout Renderer: ${event-properties}'
+2024-02-09 15:30:48.9431 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:48.9431 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-02-09 15:30:48.9431 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:48.9431 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-02-09 15:30:48.9431 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:48.9431 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-02-09 15:30:48.9439 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:48.9439 Trace Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2024-02-09 15:30:48.9439 Trace  Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2024-02-09 15:30:48.9439 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:48.9450 Trace Scanning AspNetRequestUrlRenderer 'Layout Renderer: ${aspnet-request-url}'
+2024-02-09 15:30:48.9450 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:48.9450 Trace Scanning AspNetMvcActionRenderer 'Layout Renderer: ${aspnet-mvc-action}'
+2024-02-09 15:30:48.9450 Debug Adding target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-02-09 15:30:48.9450 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-02-09 15:30:48.9463 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:48.9463 Trace Scanning MicrosoftConsoleLayoutRenderer 'Layout Renderer: ${MicrosoftConsoleLayout}'
+2024-02-09 15:30:48.9463 Debug Adding target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-02-09 15:30:48.9463 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-02-09 15:30:48.9471 Trace ParseRulesElement
+2024-02-09 15:30:49.0035 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-09 15:30:49.1991 Debug Start watching file-filter 'Nlog.config' in directory: /Users/jean-louisklayeri/Documents/Defi/Defis/bin/Debug/net8.0
+2024-02-09 15:30:49.1997 Debug --- NLog configuration dump ---
+2024-02-09 15:30:49.1997 Debug Targets:
+2024-02-09 15:30:49.2009 Debug FileTarget(Name=logfile)
+2024-02-09 15:30:49.2009 Debug FileTarget(Name=ownFile-web)
+2024-02-09 15:30:49.2009 Debug ConsoleTarget(Name=lifetimeConsole)
+2024-02-09 15:30:49.2009 Debug Rules:
+2024-02-09 15:30:49.2026 Debug logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ logfile ]
+2024-02-09 15:30:49.2026 Debug logNamePattern: (Microsoft.Hosting.Lifetime:Equals) levels: [ Info Warn Error Fatal ] writeTo: [ lifetimeConsole ownFile-web ] final: True
+2024-02-09 15:30:49.2026 Debug logNamePattern: (Microsoft.:StartsWith) levels: [ Trace Debug Info ] writeTo: [ ] final: True
+2024-02-09 15:30:49.2026 Debug logNamePattern: (System.Net.Http.:StartsWith) levels: [ Trace Debug Info ] writeTo: [ ] final: True
+2024-02-09 15:30:49.2026 Debug logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ ownFile-web ]
+2024-02-09 15:30:49.2026 Debug --- End of NLog configuration dump ---
+2024-02-09 15:30:49.2048 Trace FindReachableObject<System.Object>:
+2024-02-09 15:30:49.2048 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ logfile ]'
+2024-02-09 15:30:49.2048 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-02-09 15:30:49.2048 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2024-02-09 15:30:49.2057 Trace   Scanning Property FileName '${basedir}/logs/nlog-${date:format=yyyy-MM-dd}.log' NLog.Layouts.Layout
+2024-02-09 15:30:49.2057 Trace   Scanning SimpleLayout '${basedir}/logs/nlog-${date:format=yyyy-MM-dd}.log'
+2024-02-09 15:30:49.2057 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-02-09 15:30:49.2057 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2057 Trace    Scanning DateLayoutRenderer 'Layout Renderer: ${date}'
+2024-02-09 15:30:49.2057 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2154 Trace   Scanning Property Layout '${longdate}|${event-properties:item=EventId_Id:whenEmpty=0}|${level:uppercase=true}|${logger}|${message} ${exception:format=tostring}' NLog.Layouts.Layout
+2024-02-09 15:30:49.2157 Trace   Scanning SimpleLayout '${longdate}|${event-properties:item=EventId_Id:whenEmpty=0}|${level:uppercase=true}|${logger}|${message} ${exception:format=tostring}'
+2024-02-09 15:30:49.2157 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-02-09 15:30:49.2157 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-02-09 15:30:49.2157 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2157 Trace    Scanning WhenEmptyLayoutRendererWrapper 'Layout Renderer: ${whenEmpty}'
+2024-02-09 15:30:49.2157 Trace     Scanning Property WhenEmpty '0' NLog.Layouts.Layout
+2024-02-09 15:30:49.2157 Trace     Scanning SimpleLayout '0'
+2024-02-09 15:30:49.2165 Trace      Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-02-09 15:30:49.2165 Trace      Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2165 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${event-properties}' NLog.Layouts.Layout
+2024-02-09 15:30:49.2165 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${event-properties}'
+2024-02-09 15:30:49.2165 Trace      Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-02-09 15:30:49.2165 Trace      Scanning EventPropertiesLayoutRenderer 'Layout Renderer: ${event-properties}'
+2024-02-09 15:30:49.2165 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2165 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-02-09 15:30:49.2176 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2176 Trace    Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-02-09 15:30:49.2176 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2176 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-02-09 15:30:49.2176 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2176 Trace    Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2024-02-09 15:30:49.2176 Trace     Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2024-02-09 15:30:49.2187 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-02-09 15:30:49.2187 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-02-09 15:30:49.2187 Trace Scanning LoggingRule 'logNamePattern: (Microsoft.Hosting.Lifetime:Equals) levels: [ Info Warn Error Fatal ] writeTo: [ lifetimeConsole ownFile-web ] final: True'
+2024-02-09 15:30:49.2187 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-02-09 15:30:49.2187 Trace  Scanning ConsoleTarget 'ConsoleTarget(Name=lifetimeConsole)'
+2024-02-09 15:30:49.2187 Trace   Scanning Property Layout '${MicrosoftConsoleLayout}' NLog.Layouts.Layout
+2024-02-09 15:30:49.2195 Trace   Scanning SimpleLayout '${MicrosoftConsoleLayout}'
+2024-02-09 15:30:49.2195 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-02-09 15:30:49.2195 Trace    Scanning MicrosoftConsoleLayoutRenderer 'Layout Renderer: ${MicrosoftConsoleLayout}'
+2024-02-09 15:30:49.2195 Trace  Scanning FileTarget 'FileTarget(Name=ownFile-web)'
+2024-02-09 15:30:49.2195 Trace   Scanning Property FileName '${basedir}\nlog-AspNetCore-own-${shortdate}.log' NLog.Layouts.Layout
+2024-02-09 15:30:49.2195 Trace   Scanning SimpleLayout '${basedir}\nlog-AspNetCore-own-${shortdate}.log'
+2024-02-09 15:30:49.2195 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-02-09 15:30:49.2195 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2195 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-02-09 15:30:49.2206 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2206 Trace   Scanning Property Layout '${longdate}|${event-properties:item=EventId:whenEmpty=0}|${level:uppercase=true}|${logger}|${message} ${exception:format=tostring}|url: ${aspnet-request-url}|action: ${aspnet-mvc-action}' NLog.Layouts.Layout
+2024-02-09 15:30:49.2206 Trace   Scanning SimpleLayout '${longdate}|${event-properties:item=EventId:whenEmpty=0}|${level:uppercase=true}|${logger}|${message} ${exception:format=tostring}|url: ${aspnet-request-url}|action: ${aspnet-mvc-action}'
+2024-02-09 15:30:49.2206 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-02-09 15:30:49.2206 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-02-09 15:30:49.2206 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2206 Trace    Scanning WhenEmptyLayoutRendererWrapper 'Layout Renderer: ${whenEmpty}'
+2024-02-09 15:30:49.2216 Trace     Scanning Property WhenEmpty '0' NLog.Layouts.Layout
+2024-02-09 15:30:49.2216 Trace     Scanning SimpleLayout '0'
+2024-02-09 15:30:49.2216 Trace      Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-02-09 15:30:49.2216 Trace      Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2216 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${event-properties}' NLog.Layouts.Layout
+2024-02-09 15:30:49.2216 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${event-properties}'
+2024-02-09 15:30:49.2216 Trace      Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-02-09 15:30:49.2216 Trace      Scanning EventPropertiesLayoutRenderer 'Layout Renderer: ${event-properties}'
+2024-02-09 15:30:49.2225 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2225 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-02-09 15:30:49.2225 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2225 Trace    Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-02-09 15:30:49.2225 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2225 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-02-09 15:30:49.2225 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2225 Trace    Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2024-02-09 15:30:49.2225 Trace     Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2024-02-09 15:30:49.2236 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2236 Trace    Scanning AspNetRequestUrlRenderer 'Layout Renderer: ${aspnet-request-url}'
+2024-02-09 15:30:49.2236 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2236 Trace    Scanning AspNetMvcActionRenderer 'Layout Renderer: ${aspnet-mvc-action}'
+2024-02-09 15:30:49.2236 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-02-09 15:30:49.2246 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-02-09 15:30:49.2246 Trace Scanning LoggingRule 'logNamePattern: (Microsoft.:StartsWith) levels: [ Trace Debug Info ] writeTo: [ ] final: True'
+2024-02-09 15:30:49.2246 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-02-09 15:30:49.2246 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-02-09 15:30:49.2246 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-02-09 15:30:49.2246 Trace Scanning LoggingRule 'logNamePattern: (System.Net.Http.:StartsWith) levels: [ Trace Debug Info ] writeTo: [ ] final: True'
+2024-02-09 15:30:49.2246 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-02-09 15:30:49.2246 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-02-09 15:30:49.2246 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-02-09 15:30:49.2255 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ ownFile-web ]'
+2024-02-09 15:30:49.2255 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-02-09 15:30:49.2255 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-02-09 15:30:49.2255 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-02-09 15:30:49.2279 Info Validating config: TargetNames=logfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=/Users/jean-louisklayeri/Documents/Defi/Defis/bin/Debug/net8.0/Nlog.config
+2024-02-09 15:30:49.2290 Debug Unused target checking is started... Rule Count: 5, Target Count: 3
+2024-02-09 15:30:49.2332 Debug Unused target checking is completed. Total Rule Count: 5, Total Target Count: 3, Unused Target Count: 0
+2024-02-09 15:30:49.2338 Trace Initializing Layout Renderer: ${aspnet-mvc-action}
+2024-02-09 15:30:49.2338 Trace Initializing Layout Renderer: ${literal}
+2024-02-09 15:30:49.2338 Trace Initializing Layout Renderer: ${aspnet-request-url}
+2024-02-09 15:30:49.2338 Trace Initializing Layout Renderer: ${literal}
+2024-02-09 15:30:49.2346 Trace Initializing Layout Renderer: ${exception}
+2024-02-09 15:30:49.2346 Trace Initializing Layout Renderer: ${literal}
+2024-02-09 15:30:49.2346 Trace Initializing Layout Renderer: ${message}
+2024-02-09 15:30:49.2346 Trace Initializing Layout Renderer: ${literal}
+2024-02-09 15:30:49.2346 Trace Initializing Layout Renderer: ${loggername}
+2024-02-09 15:30:49.2346 Trace Initializing Layout Renderer: ${literal}
+2024-02-09 15:30:49.2346 Trace Initializing Layout Renderer: ${level}
+2024-02-09 15:30:49.2346 Trace Initializing Layout Renderer: ${literal}
+2024-02-09 15:30:49.2346 Trace Initializing Layout Renderer: ${event-properties}
+2024-02-09 15:30:49.2358 Trace Initializing SimpleLayout=Layout Renderer: ${event-properties}
+2024-02-09 15:30:49.2375 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:49.2375 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${event-properties}'
+2024-02-09 15:30:49.2375 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-02-09 15:30:49.2375 Trace  Scanning EventPropertiesLayoutRenderer 'Layout Renderer: ${event-properties}'
+2024-02-09 15:30:49.2417 Trace Initializing Layout Renderer: ${literal}
+2024-02-09 15:30:49.2417 Trace Initializing 0
+2024-02-09 15:30:49.2417 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:49.2417 Trace Scanning SimpleLayout '0'
+2024-02-09 15:30:49.2417 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-02-09 15:30:49.2427 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2427 Trace Initializing Layout Renderer: ${whenEmpty}
+2024-02-09 15:30:49.2438 Trace Initializing Layout Renderer: ${literal}
+2024-02-09 15:30:49.2438 Trace Initializing Layout Renderer: ${longdate}
+2024-02-09 15:30:49.2438 Trace Initializing ${longdate}|${event-properties:item=EventId:whenEmpty=0}|${level:uppercase=true}|${logger}|${message} ${exception:format=tostring}|url: ${aspnet-request-url}|action: ${aspnet-mvc-action}
+2024-02-09 15:30:49.2438 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:49.2446 Trace Scanning SimpleLayout '${longdate}|${event-properties:item=EventId:whenEmpty=0}|${level:uppercase=true}|${logger}|${message} ${exception:format=tostring}|url: ${aspnet-request-url}|action: ${aspnet-mvc-action}'
+2024-02-09 15:30:49.2446 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-02-09 15:30:49.2446 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-02-09 15:30:49.2446 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2446 Trace  Scanning WhenEmptyLayoutRendererWrapper 'Layout Renderer: ${whenEmpty}'
+2024-02-09 15:30:49.2446 Trace   Scanning Property WhenEmpty '0' NLog.Layouts.Layout
+2024-02-09 15:30:49.2446 Trace   Scanning SimpleLayout '0'
+2024-02-09 15:30:49.2446 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-02-09 15:30:49.2456 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2456 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${event-properties}' NLog.Layouts.Layout
+2024-02-09 15:30:49.2456 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${event-properties}'
+2024-02-09 15:30:49.2456 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-02-09 15:30:49.2456 Trace    Scanning EventPropertiesLayoutRenderer 'Layout Renderer: ${event-properties}'
+2024-02-09 15:30:49.2456 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2456 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-02-09 15:30:49.2456 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2465 Trace  Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-02-09 15:30:49.2465 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2465 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-02-09 15:30:49.2465 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2465 Trace  Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2024-02-09 15:30:49.2465 Trace   Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2024-02-09 15:30:49.2465 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2465 Trace  Scanning AspNetRequestUrlRenderer 'Layout Renderer: ${aspnet-request-url}'
+2024-02-09 15:30:49.2475 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2475 Trace  Scanning AspNetMvcActionRenderer 'Layout Renderer: ${aspnet-mvc-action}'
+2024-02-09 15:30:49.2475 Trace Initializing Layout Renderer: ${literal}
+2024-02-09 15:30:49.2475 Trace Initializing Layout Renderer: ${shortdate}
+2024-02-09 15:30:49.2475 Trace Initializing Layout Renderer: ${literal}
+2024-02-09 15:30:49.2475 Trace Initializing ${basedir}\nlog-AspNetCore-own-${shortdate}.log
+2024-02-09 15:30:49.2475 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:49.2484 Trace Scanning SimpleLayout '${basedir}\nlog-AspNetCore-own-${shortdate}.log'
+2024-02-09 15:30:49.2484 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-02-09 15:30:49.2484 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2484 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-02-09 15:30:49.2484 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2484 Trace Initializing FileTarget(Name=ownFile-web)
+2024-02-09 15:30:49.2505 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-02-09 15:30:49.2505 Trace Scanning FileTarget 'FileTarget(Name=ownFile-web)'
+2024-02-09 15:30:49.2505 Trace  Scanning Property FileName '${basedir}\nlog-AspNetCore-own-${shortdate}.log' NLog.Layouts.Layout
+2024-02-09 15:30:49.2505 Trace  Scanning Property Layout '${longdate}|${event-properties:item=EventId:whenEmpty=0}|${level:uppercase=true}|${logger}|${message} ${exception:format=tostring}|url: ${aspnet-request-url}|action: ${aspnet-mvc-action}' NLog.Layouts.Layout
+2024-02-09 15:30:49.2515 Trace FileTarget(Name=ownFile-web) has 2 layouts
+2024-02-09 15:30:49.2537 Trace FileTarget(Name=ownFile-web): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2024-02-09 15:30:49.2537 Trace Initializing Layout Renderer: ${MicrosoftConsoleLayout}
+2024-02-09 15:30:49.2537 Trace Initializing ${MicrosoftConsoleLayout}
+2024-02-09 15:30:49.2545 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:49.2545 Trace Scanning SimpleLayout '${MicrosoftConsoleLayout}'
+2024-02-09 15:30:49.2545 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-02-09 15:30:49.2545 Trace  Scanning MicrosoftConsoleLayoutRenderer 'Layout Renderer: ${MicrosoftConsoleLayout}'
+2024-02-09 15:30:49.2545 Trace Initializing ConsoleTarget(Name=lifetimeConsole)
+2024-02-09 15:30:49.2557 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-02-09 15:30:49.2557 Trace Scanning ConsoleTarget 'ConsoleTarget(Name=lifetimeConsole)'
+2024-02-09 15:30:49.2557 Trace  Scanning Property Layout '${MicrosoftConsoleLayout}' NLog.Layouts.Layout
+2024-02-09 15:30:49.2557 Trace ConsoleTarget(Name=lifetimeConsole) has 1 layouts
+2024-02-09 15:30:49.2566 Trace Initializing Layout Renderer: ${exception}
+2024-02-09 15:30:49.2566 Trace Initializing Layout Renderer: ${literal}
+2024-02-09 15:30:49.2566 Trace Initializing Layout Renderer: ${message}
+2024-02-09 15:30:49.2566 Trace Initializing Layout Renderer: ${literal}
+2024-02-09 15:30:49.2566 Trace Initializing Layout Renderer: ${loggername}
+2024-02-09 15:30:49.2566 Trace Initializing Layout Renderer: ${literal}
+2024-02-09 15:30:49.2575 Trace Initializing Layout Renderer: ${level}
+2024-02-09 15:30:49.2575 Trace Initializing Layout Renderer: ${literal}
+2024-02-09 15:30:49.2575 Trace Initializing Layout Renderer: ${event-properties}
+2024-02-09 15:30:49.2575 Trace Initializing SimpleLayout=Layout Renderer: ${event-properties}
+2024-02-09 15:30:49.2575 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:49.2575 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${event-properties}'
+2024-02-09 15:30:49.2575 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-02-09 15:30:49.2575 Trace  Scanning EventPropertiesLayoutRenderer 'Layout Renderer: ${event-properties}'
+2024-02-09 15:30:49.2586 Trace Initializing Layout Renderer: ${literal}
+2024-02-09 15:30:49.2586 Trace Initializing 0
+2024-02-09 15:30:49.2586 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:49.2586 Trace Scanning SimpleLayout '0'
+2024-02-09 15:30:49.2586 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-02-09 15:30:49.2586 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2586 Trace Initializing Layout Renderer: ${whenEmpty}
+2024-02-09 15:30:49.2586 Trace Initializing Layout Renderer: ${literal}
+2024-02-09 15:30:49.2586 Trace Initializing Layout Renderer: ${longdate}
+2024-02-09 15:30:49.2595 Trace Initializing ${longdate}|${event-properties:item=EventId_Id:whenEmpty=0}|${level:uppercase=true}|${logger}|${message} ${exception:format=tostring}
+2024-02-09 15:30:49.2595 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:49.2595 Trace Scanning SimpleLayout '${longdate}|${event-properties:item=EventId_Id:whenEmpty=0}|${level:uppercase=true}|${logger}|${message} ${exception:format=tostring}'
+2024-02-09 15:30:49.2595 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-02-09 15:30:49.2595 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-02-09 15:30:49.2595 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2595 Trace  Scanning WhenEmptyLayoutRendererWrapper 'Layout Renderer: ${whenEmpty}'
+2024-02-09 15:30:49.2595 Trace   Scanning Property WhenEmpty '0' NLog.Layouts.Layout
+2024-02-09 15:30:49.2595 Trace   Scanning SimpleLayout '0'
+2024-02-09 15:30:49.2595 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-02-09 15:30:49.2605 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2605 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${event-properties}' NLog.Layouts.Layout
+2024-02-09 15:30:49.2605 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${event-properties}'
+2024-02-09 15:30:49.2605 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-02-09 15:30:49.2605 Trace    Scanning EventPropertiesLayoutRenderer 'Layout Renderer: ${event-properties}'
+2024-02-09 15:30:49.2605 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2605 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-02-09 15:30:49.2605 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2605 Trace  Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-02-09 15:30:49.2614 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2614 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-02-09 15:30:49.2614 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2614 Trace  Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2024-02-09 15:30:49.2614 Trace   Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2024-02-09 15:30:49.2614 Trace Initializing Layout Renderer: ${literal}
+2024-02-09 15:30:49.2614 Trace Initializing Layout Renderer: ${date}
+2024-02-09 15:30:49.2614 Trace Initializing Layout Renderer: ${literal}
+2024-02-09 15:30:49.2614 Trace Initializing ${basedir}/logs/nlog-${date:format=yyyy-MM-dd}.log
+2024-02-09 15:30:49.2614 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-02-09 15:30:49.2625 Trace Scanning SimpleLayout '${basedir}/logs/nlog-${date:format=yyyy-MM-dd}.log'
+2024-02-09 15:30:49.2625 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-02-09 15:30:49.2625 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2625 Trace  Scanning DateLayoutRenderer 'Layout Renderer: ${date}'
+2024-02-09 15:30:49.2625 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-02-09 15:30:49.2625 Trace Initializing FileTarget(Name=logfile)
+2024-02-09 15:30:49.2625 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-02-09 15:30:49.2625 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2024-02-09 15:30:49.2625 Trace  Scanning Property FileName '${basedir}/logs/nlog-${date:format=yyyy-MM-dd}.log' NLog.Layouts.Layout
+2024-02-09 15:30:49.2625 Trace  Scanning Property Layout '${longdate}|${event-properties:item=EventId_Id:whenEmpty=0}|${level:uppercase=true}|${logger}|${message} ${exception:format=tostring}' NLog.Layouts.Layout
+2024-02-09 15:30:49.2635 Trace FileTarget(Name=logfile) has 2 layouts
+2024-02-09 15:30:49.2635 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2024-02-09 15:30:49.2650 Info Configuration initialized.
+2024-02-09 15:30:49.2799 Debug Targets configured when LogLevel >= Trace for Logger: Program
+2024-02-09 15:30:49.2799 Debug Logger Program [Trace] => logfile ownFile-web
+2024-02-09 15:30:49.2799 Debug Logger Program [Debug] => logfile ownFile-web
+2024-02-09 15:30:49.2804 Debug Logger Program [Info] => logfile ownFile-web
+2024-02-09 15:30:49.2804 Debug Logger Program [Warn] => logfile ownFile-web
+2024-02-09 15:30:49.2804 Debug Logger Program [Error] => logfile ownFile-web
+2024-02-09 15:30:49.2804 Debug Logger Program [Fatal] => logfile ownFile-web
+2024-02-09 15:30:50.1511 Debug Hide assemblies for callsite
+2024-02-09 15:30:50.1535 Debug Skip loading NLogLoggingConfiguration from empty config section: NLog
+2024-02-09 15:30:50.1670 Debug Targets configured when LogLevel >= Trace for Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime
+2024-02-09 15:30:50.1673 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Trace] => logfile
+2024-02-09 15:30:50.1673 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Debug] => logfile
+2024-02-09 15:30:50.1673 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Info] => logfile
+2024-02-09 15:30:50.1673 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Warn] => logfile ownFile-web
+2024-02-09 15:30:50.1673 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Error] => logfile ownFile-web
+2024-02-09 15:30:50.1673 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Fatal] => logfile ownFile-web
+2024-02-09 15:30:50.1710 Debug Targets configured when LogLevel >= Trace for Logger: Microsoft.Extensions.Hosting.Internal.Host
+2024-02-09 15:30:50.1710 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Trace] => logfile
+2024-02-09 15:30:50.1714 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Debug] => logfile
+2024-02-09 15:30:50.1714 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Info] => logfile
+2024-02-09 15:30:50.1714 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Warn] => logfile ownFile-web
+2024-02-09 15:30:50.1714 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Error] => logfile ownFile-web
+2024-02-09 15:30:50.1714 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Fatal] => logfile ownFile-web
+2024-02-09 15:30:50.1726 Debug Targets configured when LogLevel >= Trace for Logger: Microsoft.Hosting.Lifetime
+2024-02-09 15:30:50.1726 Debug Logger Microsoft.Hosting.Lifetime [Trace] => logfile
+2024-02-09 15:30:50.1726 Debug Logger Microsoft.Hosting.Lifetime [Debug] => logfile
+2024-02-09 15:30:50.1726 Debug Logger Microsoft.Hosting.Lifetime [Info] => logfile lifetimeConsole ownFile-web
+2024-02-09 15:30:50.1726 Debug Logger Microsoft.Hosting.Lifetime [Warn] => logfile lifetimeConsole ownFile-web
+2024-02-09 15:30:50.1726 Debug Logger Microsoft.Hosting.Lifetime [Error] => logfile lifetimeConsole ownFile-web
+2024-02-09 15:30:50.1733 Debug Logger Microsoft.Hosting.Lifetime [Fatal] => logfile lifetimeConsole ownFile-web
+2024-02-09 15:30:50.1756 Debug Targets configured when LogLevel >= Trace for Logger: Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer
+2024-02-09 15:30:50.1756 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Trace] => logfile
+2024-02-09 15:30:50.1756 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Debug] => logfile
+2024-02-09 15:30:50.1756 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Info] => logfile
+2024-02-09 15:30:50.1763 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Warn] => logfile ownFile-web
+2024-02-09 15:30:50.1763 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Error] => logfile ownFile-web
+2024-02-09 15:30:50.1763 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Fatal] => logfile ownFile-web
+2024-02-09 15:30:50.1763 Debug Targets configured when LogLevel >= Trace for Logger: Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware
+2024-02-09 15:30:50.1763 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Trace] => logfile
+2024-02-09 15:30:50.1763 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Debug] => logfile
+2024-02-09 15:30:50.1763 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Info] => logfile
+2024-02-09 15:30:50.1773 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Warn] => logfile ownFile-web
+2024-02-09 15:30:50.1773 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Error] => logfile ownFile-web
+2024-02-09 15:30:50.1773 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Fatal] => logfile ownFile-web
+2024-02-09 15:30:50.1955 Debug Targets configured when LogLevel >= Trace for Logger: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.CertificatePathWatcher
+2024-02-09 15:30:50.1955 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.Internal.CertificatePathWatcher [Trace] => logfile
+2024-02-09 15:30:50.1955 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.Internal.CertificatePathWatcher [Debug] => logfile
+2024-02-09 15:30:50.1955 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.Internal.CertificatePathWatcher [Info] => logfile
+2024-02-09 15:30:50.1955 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.Internal.CertificatePathWatcher [Warn] => logfile ownFile-web
+2024-02-09 15:30:50.1963 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.Internal.CertificatePathWatcher [Error] => logfile ownFile-web
+2024-02-09 15:30:50.1963 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.Internal.CertificatePathWatcher [Fatal] => logfile ownFile-web
+2024-02-09 15:30:50.1972 Debug Targets configured when LogLevel >= Trace for Logger: Microsoft.AspNetCore.Server.Kestrel
+2024-02-09 15:30:50.1972 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Trace] => logfile
+2024-02-09 15:30:50.1972 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Debug] => logfile
+2024-02-09 15:30:50.1972 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Info] => logfile
+2024-02-09 15:30:50.1972 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Warn] => logfile ownFile-web
+2024-02-09 15:30:50.1972 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Error] => logfile ownFile-web
+2024-02-09 15:30:50.1972 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Fatal] => logfile ownFile-web
+2024-02-09 15:30:50.1983 Debug Targets configured when LogLevel >= Trace for Logger: Microsoft.AspNetCore.Server.Kestrel.BadRequests
+2024-02-09 15:30:50.1983 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Trace] => logfile
+2024-02-09 15:30:50.1983 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Debug] => logfile
+2024-02-09 15:30:50.1983 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Info] => logfile
+2024-02-09 15:30:50.1983 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Warn] => logfile ownFile-web
+2024-02-09 15:30:50.1983 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Error] => logfile ownFile-web
+2024-02-09 15:30:50.1983 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Fatal] => logfile ownFile-web
+2024-02-09 15:30:50.1983 Debug Targets configured when LogLevel >= Trace for Logger: Microsoft.AspNetCore.Server.Kestrel.Connections
+2024-02-09 15:30:50.1993 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Trace] => logfile
+2024-02-09 15:30:50.1993 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] => logfile
+2024-02-09 15:30:50.1993 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Info] => logfile
+2024-02-09 15:30:50.1993 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Warn] => logfile ownFile-web
+2024-02-09 15:30:50.1993 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Error] => logfile ownFile-web
+2024-02-09 15:30:50.1993 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Fatal] => logfile ownFile-web
+2024-02-09 15:30:50.1993 Debug Targets configured when LogLevel >= Trace for Logger: Microsoft.AspNetCore.Server.Kestrel.Http2
+2024-02-09 15:30:50.2002 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Trace] => logfile
+2024-02-09 15:30:50.2002 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Debug] => logfile
+2024-02-09 15:30:50.2002 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Info] => logfile
+2024-02-09 15:30:50.2002 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Warn] => logfile ownFile-web
+2024-02-09 15:30:50.2002 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Error] => logfile ownFile-web
+2024-02-09 15:30:50.2002 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Fatal] => logfile ownFile-web
+2024-02-09 15:30:50.2002 Debug Targets configured when LogLevel >= Trace for Logger: Microsoft.AspNetCore.Server.Kestrel.Http3
+2024-02-09 15:30:50.2002 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Trace] => logfile
+2024-02-09 15:30:50.2002 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Debug] => logfile
+2024-02-09 15:30:50.2012 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Info] => logfile
+2024-02-09 15:30:50.2012 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Warn] => logfile ownFile-web
+2024-02-09 15:30:50.2012 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Error] => logfile ownFile-web
+2024-02-09 15:30:50.2012 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Fatal] => logfile ownFile-web
+2024-02-09 15:30:50.2150 Debug Targets configured when LogLevel >= Trace for Logger: Defis
+2024-02-09 15:30:50.2152 Debug Logger Defis [Trace] => logfile ownFile-web
+2024-02-09 15:30:50.2152 Debug Logger Defis [Debug] => logfile ownFile-web
+2024-02-09 15:30:50.2152 Debug Logger Defis [Info] => logfile ownFile-web
+2024-02-09 15:30:50.2152 Debug Logger Defis [Warn] => logfile ownFile-web
+2024-02-09 15:30:50.2152 Debug Logger Defis [Error] => logfile ownFile-web
+2024-02-09 15:30:50.2152 Debug Logger Defis [Fatal] => logfile ownFile-web
+2024-02-09 15:30:50.3443 Debug Targets configured when LogLevel >= Trace for Logger: Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter
+2024-02-09 15:30:50.3443 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Trace] => logfile
+2024-02-09 15:30:50.3443 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Debug] => logfile
+2024-02-09 15:30:50.3443 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Info] => logfile
+2024-02-09 15:30:50.3443 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Warn] => logfile ownFile-web
+2024-02-09 15:30:50.3443 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Error] => logfile ownFile-web
+2024-02-09 15:30:50.3451 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Fatal] => logfile ownFile-web
+2024-02-09 15:30:50.3937 Debug Targets configured when LogLevel >= Trace for Logger: Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter
+2024-02-09 15:30:50.3941 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter [Trace] => logfile
+2024-02-09 15:30:50.3941 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter [Debug] => logfile
+2024-02-09 15:30:50.3941 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter [Info] => logfile
+2024-02-09 15:30:50.3941 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter [Warn] => logfile ownFile-web
+2024-02-09 15:30:50.3941 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter [Error] => logfile ownFile-web
+2024-02-09 15:30:50.3941 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter [Fatal] => logfile ownFile-web
+2024-02-09 15:30:50.3959 Debug Targets configured when LogLevel >= Trace for Logger: Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter
+2024-02-09 15:30:50.3962 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter [Trace] => logfile
+2024-02-09 15:30:50.3962 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter [Debug] => logfile
+2024-02-09 15:30:50.3962 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter [Info] => logfile
+2024-02-09 15:30:50.3962 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter [Warn] => logfile ownFile-web
+2024-02-09 15:30:50.3962 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter [Error] => logfile ownFile-web
+2024-02-09 15:30:50.3970 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter [Fatal] => logfile ownFile-web
+2024-02-09 15:30:50.4316 Debug Targets configured when LogLevel >= Trace for Logger: Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider
+2024-02-09 15:30:50.4316 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider [Trace] => logfile
+2024-02-09 15:30:50.4319 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider [Debug] => logfile
+2024-02-09 15:30:50.4319 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider [Info] => logfile
+2024-02-09 15:30:50.4319 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider [Warn] => logfile ownFile-web
+2024-02-09 15:30:50.4319 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider [Error] => logfile ownFile-web
+2024-02-09 15:30:50.4319 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider [Fatal] => logfile ownFile-web
+2024-02-09 15:30:50.4355 Debug Targets configured when LogLevel >= Trace for Logger: Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory
+2024-02-09 15:30:50.4355 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Trace] => logfile
+2024-02-09 15:30:50.4359 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Debug] => logfile
+2024-02-09 15:30:50.4359 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Info] => logfile
+2024-02-09 15:30:50.4359 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Warn] => logfile ownFile-web
+2024-02-09 15:30:50.4359 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Error] => logfile ownFile-web
+2024-02-09 15:30:50.4359 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Fatal] => logfile ownFile-web
+2024-02-09 15:30:50.4668 Debug FileTarget(Name=logfile): Preparing for new file: '/Users/jean-louisklayeri/Documents/Defi/Defis/bin/Debug/net8.0/logs/nlog-2024-02-09.log'
+2024-02-09 15:30:50.4706 Debug FileTarget(Name=logfile): Creating file appender: '/Users/jean-louisklayeri/Documents/Defi/Defis/bin/Debug/net8.0/logs/nlog-2024-02-09.log'
+2024-02-09 15:30:50.4719 Trace FileTarget(Name=logfile): Opening /Users/jean-louisklayeri/Documents/Defi/Defis/bin/Debug/net8.0/logs/nlog-2024-02-09.log with allowFileSharedWriting=False
+2024-02-09 15:30:50.4765 Debug Targets configured when LogLevel >= Trace for Logger: Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder
+2024-02-09 15:30:50.4765 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Trace] => logfile
+2024-02-09 15:30:50.4769 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] => logfile
+2024-02-09 15:30:50.4769 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Info] => logfile
+2024-02-09 15:30:50.4769 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Warn] => logfile ownFile-web
+2024-02-09 15:30:50.4769 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Error] => logfile ownFile-web
+2024-02-09 15:30:50.4769 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Fatal] => logfile ownFile-web
+2024-02-09 15:30:50.4793 Debug Targets configured when LogLevel >= Trace for Logger: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+2024-02-09 15:30:50.4793 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Trace] => logfile
+2024-02-09 15:30:50.4793 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] => logfile
+2024-02-09 15:30:50.4793 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Info] => logfile
+2024-02-09 15:30:50.4799 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Warn] => logfile ownFile-web
+2024-02-09 15:30:50.4799 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Error] => logfile ownFile-web
+2024-02-09 15:30:50.4799 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Fatal] => logfile ownFile-web
+2024-02-09 15:30:50.5353 Debug Targets configured when LogLevel >= Trace for Logger: Microsoft.AspNetCore.Hosting.Diagnostics
+2024-02-09 15:30:50.5353 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Trace] => logfile
+2024-02-09 15:30:50.5353 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Debug] => logfile
+2024-02-09 15:30:50.5358 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Info] => logfile
+2024-02-09 15:30:50.5358 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Warn] => logfile ownFile-web
+2024-02-09 15:30:50.5358 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Error] => logfile ownFile-web
+2024-02-09 15:30:50.5358 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Fatal] => logfile ownFile-web
+2024-02-09 15:30:50.5674 Debug Targets configured when LogLevel >= Trace for Logger: Microsoft.AspNetCore.Routing.EndpointMiddleware
+2024-02-09 15:30:50.5674 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Trace] => logfile
+2024-02-09 15:30:50.5678 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Debug] => logfile
+2024-02-09 15:30:50.5678 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Info] => logfile
+2024-02-09 15:30:50.5678 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Warn] => logfile ownFile-web
+2024-02-09 15:30:50.5678 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Error] => logfile ownFile-web
+2024-02-09 15:30:50.5678 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Fatal] => logfile ownFile-web
+2024-02-09 15:30:50.5691 Debug Targets configured when LogLevel >= Trace for Logger: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+2024-02-09 15:30:50.5691 Debug Logger Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Trace] => logfile
+2024-02-09 15:30:50.5691 Debug Logger Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Debug] => logfile
+2024-02-09 15:30:50.5691 Debug Logger Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Info] => logfile
+2024-02-09 15:30:50.5691 Debug Logger Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warn] => logfile ownFile-web
+2024-02-09 15:30:50.5691 Debug Logger Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Error] => logfile ownFile-web
+2024-02-09 15:30:50.5697 Debug Logger Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Fatal] => logfile ownFile-web
+2024-02-09 15:30:50.5920 Debug Targets configured when LogLevel >= Trace for Logger: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+2024-02-09 15:30:50.5920 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Trace] => logfile
+2024-02-09 15:30:50.5920 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Debug] => logfile
+2024-02-09 15:30:50.5920 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Info] => logfile
+2024-02-09 15:30:50.5920 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Warn] => logfile ownFile-web
+2024-02-09 15:30:50.5928 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Error] => logfile ownFile-web
+2024-02-09 15:30:50.5928 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Fatal] => logfile ownFile-web
+2024-02-09 15:30:50.6173 Debug Targets configured when LogLevel >= Trace for Logger: Microsoft.AspNetCore.Authorization.AuthorizationMiddleware
+2024-02-09 15:30:50.6173 Debug Logger Microsoft.AspNetCore.Authorization.AuthorizationMiddleware [Trace] => logfile
+2024-02-09 15:30:50.6176 Debug Logger Microsoft.AspNetCore.Authorization.AuthorizationMiddleware [Debug] => logfile
+2024-02-09 15:30:50.6176 Debug Logger Microsoft.AspNetCore.Authorization.AuthorizationMiddleware [Info] => logfile
+2024-02-09 15:30:50.6176 Debug Logger Microsoft.AspNetCore.Authorization.AuthorizationMiddleware [Warn] => logfile ownFile-web
+2024-02-09 15:30:50.6176 Debug Logger Microsoft.AspNetCore.Authorization.AuthorizationMiddleware [Error] => logfile ownFile-web
+2024-02-09 15:30:50.6176 Debug Logger Microsoft.AspNetCore.Authorization.AuthorizationMiddleware [Fatal] => logfile ownFile-web
+2024-02-09 15:30:50.6234 Debug Targets configured when LogLevel >= Trace for Logger: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware
+2024-02-09 15:30:50.6236 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Trace] => logfile
+2024-02-09 15:30:50.6236 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] => logfile
+2024-02-09 15:30:50.6236 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Info] => logfile
+2024-02-09 15:30:50.6236 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Warn] => logfile ownFile-web
+2024-02-09 15:30:50.6236 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Error] => logfile ownFile-web
+2024-02-09 15:30:50.6236 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Fatal] => logfile ownFile-web
+2024-02-09 15:30:50.6336 Debug Targets configured when LogLevel >= Trace for Logger: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware
+2024-02-09 15:30:50.6336 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Trace] => logfile
+2024-02-09 15:30:50.6336 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Debug] => logfile
+2024-02-09 15:30:50.6336 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Info] => logfile
+2024-02-09 15:30:50.6336 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Warn] => logfile ownFile-web
+2024-02-09 15:30:50.6336 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Error] => logfile ownFile-web
+2024-02-09 15:30:50.6336 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Fatal] => logfile ownFile-web
+2024-02-09 15:30:50.6360 Debug Targets configured when LogLevel >= Trace for Logger: Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware
+2024-02-09 15:30:50.6360 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Trace] => logfile
+2024-02-09 15:30:50.6360 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Debug] => logfile
+2024-02-09 15:30:50.6360 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Info] => logfile
+2024-02-09 15:30:50.6360 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Warn] => logfile ownFile-web
+2024-02-09 15:30:50.6367 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Error] => logfile ownFile-web
+2024-02-09 15:30:50.6367 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Fatal] => logfile ownFile-web
+2024-02-09 15:30:50.6730 Debug No available HttpContext, because outside valid request context. Logger: Microsoft.AspNetCore.Server.Kestrel
+2024-02-09 15:30:50.6730 Debug No available HttpContext, because outside valid request context. Logger: Microsoft.AspNetCore.Server.Kestrel
+2024-02-09 15:30:50.6730 Debug FileTarget(Name=ownFile-web): Preparing for new file: '/Users/jean-louisklayeri/Documents/Defi/Defis/bin/Debug/net8.0/\nlog-AspNetCore-own-2024-02-09.log'
+2024-02-09 15:30:50.6730 Debug FileTarget(Name=ownFile-web): Creating file appender: '/Users/jean-louisklayeri/Documents/Defi/Defis/bin/Debug/net8.0/\nlog-AspNetCore-own-2024-02-09.log'
+2024-02-09 15:30:50.6737 Trace FileTarget(Name=ownFile-web): Opening /Users/jean-louisklayeri/Documents/Defi/Defis/bin/Debug/net8.0/\nlog-AspNetCore-own-2024-02-09.log with allowFileSharedWriting=False
+2024-02-09 15:30:50.6773 Debug Targets configured when LogLevel >= Trace for Logger: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets
+2024-02-09 15:30:50.6773 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Trace] => logfile
+2024-02-09 15:30:50.6776 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] => logfile
+2024-02-09 15:30:50.6776 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Info] => logfile
+2024-02-09 15:30:50.6776 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Warn] => logfile ownFile-web
+2024-02-09 15:30:50.6776 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Error] => logfile ownFile-web
+2024-02-09 15:30:50.6776 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Fatal] => logfile ownFile-web
+2024-02-09 15:30:50.7098 Debug No available HttpContext, because outside valid request context. Logger: Microsoft.Hosting.Lifetime
+2024-02-09 15:30:50.7098 Debug No available HttpContext, because outside valid request context. Logger: Microsoft.Hosting.Lifetime
+2024-02-09 15:30:50.7106 Debug No available HttpContext, because outside valid request context. Logger: Microsoft.Hosting.Lifetime
+2024-02-09 15:30:50.7106 Debug No available HttpContext, because outside valid request context. Logger: Microsoft.Hosting.Lifetime
+2024-02-09 15:30:50.7106 Debug No available HttpContext, because outside valid request context. Logger: Microsoft.Hosting.Lifetime
+2024-02-09 15:30:50.7106 Debug No available HttpContext, because outside valid request context. Logger: Microsoft.Hosting.Lifetime
+2024-02-09 15:30:50.7115 Debug No available HttpContext, because outside valid request context. Logger: Microsoft.Hosting.Lifetime
+2024-02-09 15:30:50.7115 Debug No available HttpContext, because outside valid request context. Logger: Microsoft.Hosting.Lifetime
